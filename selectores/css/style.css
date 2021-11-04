@@ -1,0 +1,89 @@
+body{
+    background-color: khaki;
+    font-family: 'roboto', sans-serif;
+}
+head{
+    font-family:'roboto', sans-serif, bold ;
+}
+p{
+    padding: 10px;
+    margin: 20px;
+}
+/* Link*/
+a{
+    color:lightcoral;
+}
+.pagweb{
+    color:lightgreen
+}
+
+a:visited{
+    color: purple;
+
+}
+a:visited.pagweb{
+    color:red
+}
+a:hover{
+    color:hotpink
+}
+a:hover.pagweb{
+    color:hotpink
+}
+a:focus{
+    border: 1px dotted grey ;
+}   
+
+div{
+    padding: 10px;
+    margin: 20px;
+    font-family: 'roboto', sans-serif;
+}
+/* Input*/
+
+input[type="text"]:focus{
+  box-shadow: 0 0 5px 5px darkmagenta ;
+  
+}
+input:focus{
+    box-shadow: 0 0 5px 5px black;
+}
+input:checked ~ p{
+    color:brown;
+}
+
+/* gerarquias*/
+
+p {
+    color:red
+}
+span{
+    color: green;
+}
+p span {
+    color:indigo
+}
+.color{
+    color:white
+}
+span.color{
+    color:blue
+}
+p span.color{
+    color:turquoise
+}
+.parrafo .color{
+    color:pink
+}
+p.parrafo span.color{
+    color:saddlebrown
+}
+#a{
+    color:slateblue
+}
+span#a{
+ color:springgreen
+}
+.parrafo span#a{
+    color:violet
+}
