@@ -1,20 +1,73 @@
 body{
-    background-color: pink;
+    background-color: gainsboro;
+    font-family: 'roboto', sans-serif;
+
+}
+.topbar{
+    max-width: 200px;
+    width: 50%;
+    height: auto;
+    margin: 5px;
+    padding: 60px;
+    color: black;
+
 }
 h1{
-    color:purple
+    color:orange
 }
 h2{
     color:chocolate
 }
+h3{
+    font-family: 'roboto', sans-serif, bold;
+    color: orange;
+    text-align: center;
+}
 header{
-    background-color: yellow;
+    background-color: black;
     padding: 12px;
     margin:12px;
     border: 12px solid white;
+    font-family: 'roboto', sans-serif, bold;
 }
 img{
     max-width:100%;
     width:100%;
     height: 200px;
+}
+/* contacto*/
+.contacto{
+    max-width: auto;
+    background-color: black;
+    padding: 12px;
+
+}
+
+div{
+    color: white;
+    font-weight: normal;
+    text-align:center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+input[type="text"]:focus{
+    box-shadow: 0 0 5px 5px orange;
+}
+input:focus{
+    box-shadow: 0 0 5px 5px orange;
+}
+   
+input:checked ~ p{
+color: orangered;
+}
+.submit{
+    background-color: orange;
+    font-size: 20px;
+
 }
