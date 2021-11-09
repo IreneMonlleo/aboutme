@@ -1,0 +1,43 @@
+body{
+    padding:0;
+    margin:0;
+    flex-direction:column;
+  display: flex;
+    min-height: 100vh;
+   
+  }
+  
+  .logo{
+    background-color: green;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+
+
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.avatar--header{
+margin-left: auto;
+}
+ 
+  nav{
+    background-color: red;
+    padding: 10px;
+    
+  }
+  .cuerpo{
+   background-color: pink;
+   padding: 10px; 
+   flex:1;
+  }
+  footer{
+    background-color: blue;
+    display: flex;
+    padding:10px
+    
+  }
+  
