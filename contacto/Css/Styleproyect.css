@@ -1,0 +1,105 @@
+*,* :before, *:after{
+    box-sizing: border-box;
+}
+body{
+    padding:  40px;
+    margin: 40px;
+    flex-direction: column;
+    display: inline;
+    
+}
+main{
+    background-color: grey;
+}
+
+
+h1,h2{
+    font-family:'Baloo Bhaina 2', cursive;
+    color:#292929;
+    padding: 20px;
+    
+}
+
+h3,p{
+    font-family:'Rubik', sans-serif; 
+    margin: 15px;
+}
+
+h1{
+    font-size:48px; 
+    line-height: 48px;   
+}
+
+h2{
+    font-size: 24px;
+    color: #33475B;
+}
+
+h3{
+    font-size:20px;
+}
+
+p{
+    color: #33475B;
+    font-size:20px;
+    
+    
+}
+
+a{
+    color:#35CC61;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    margin:15px ;
+}
+
+
+.rrss{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+@media all and (min-width: 600px){
+    main{
+        display:flex;
+        width: 100%;
+    }
+}
+
+input {
+    padding:6px 16px;
+    background-color: #FFFFFF;
+    width: 100%;
+    min-height: 47px;
+    border-color: #4E4D4D33;
+    margin: 10px;
+    display: flex;
+    border-radius: 4px;
+
+}
+
+    
+input[type="submit"]{
+    background-color: #35CC61;
+    font-size: 16px;
+    font-family: 'Rubik', ;
+    padding:15px 30px;
+    color:#FFFFFF;
+}
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
