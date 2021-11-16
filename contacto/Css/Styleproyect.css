@@ -6,10 +6,12 @@ body{
     margin: 40px;
     flex-direction: column;
     display: inline;
+  
     
 }
 main{
     background-color: grey;
+    
 }
 
 
@@ -56,17 +58,33 @@ a{
 
 .rrss{
     display: flex;
+    justify-content: space-around;
     align-items: center;
+    
     
     
 }
 
-@media all and (min-width: 600px){
+@media all and (min-width: 600px) {
     main{
         display:flex;
         width: 100%;
+        justify-content: space-around;
     }
 }
+/*
+@media all and (min-width: 1024px){
+    main{
+        display: flex;
+        width:100%;
+        justify-items: center;
+        
+    }
+}*/
+
+
+
+
 
 input {
     padding:6px 16px;
