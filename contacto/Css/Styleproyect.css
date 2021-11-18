@@ -76,7 +76,7 @@ a{
 @media all and (min-width: 1024px){
     main{
         display: flex;
-        width:100%;
+        width:50%;
         justify-items: center;
         
     }
