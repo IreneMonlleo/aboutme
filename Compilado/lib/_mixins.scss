@@ -1,0 +1,10 @@
+@mixin margin ($value:$unit){
+    margin: $value - 1px;
+
+}
+
+@mixin gridcell ($width: 100%){
+    flex: 0 0 calc (# {$width} - {$margin});
+}
+
+    

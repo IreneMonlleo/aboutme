@@ -1,0 +1,31 @@
+html {
+  font-size: 100%;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: blue;
+}
+
+h1 {
+  color: aqua;
+}
+
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.grid__cell {
+  color: green;
+  padding: 12px;
+}
+.grid__cell--50 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}

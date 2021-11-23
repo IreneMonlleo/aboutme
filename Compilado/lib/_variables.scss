@@ -1,0 +1,13 @@
+//-------> Space Variables
+
+$unit: 6px;
+$space:$unit * 2;
+$space--medium: $space * 1.5;
+$padding:$unit;
+
+
+
+//------->COLOR
+$purpel: #d75893;
+$grey: #d1d1d1;
+$grey-dark: darken($grey, 60);

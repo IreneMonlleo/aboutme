@@ -1,0 +1,13 @@
+.grid{
+    display:flex;
+
+    &__cell{
+        color:green;
+        padding: $space;
+        @include remove-border (12px);
+
+        &--50{
+            flex:0 0 50%;
+        }
+    }
+}
