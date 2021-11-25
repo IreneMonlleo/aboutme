@@ -3,8 +3,6 @@
 
 }
 
-@mixin gridcell ($width: 100%){
-    flex: 0 0 calc (# {$width} - {$margin});
-}
+
 
     
