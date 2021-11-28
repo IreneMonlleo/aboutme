@@ -1,3 +1,17 @@
 body{
-    background-color:$turquesa ;
+    background-color:$blue ;
+   
+
+}
+section{
+    padding: 50%;
+  }
+.longout{
+    display: flex;
+    color:$iconscolor;
+
+}
+
+.cuadricula{
+    color:$iconscolor;
 }

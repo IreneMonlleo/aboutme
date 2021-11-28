@@ -1,0 +1,32 @@
+body {
+  background-color: #187D6B;
+}
+
+section {
+  padding: 50%;
+}
+
+.longout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+.cuadros {
+  color: white;
+}
+
+h1, p {
+  color: white;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
