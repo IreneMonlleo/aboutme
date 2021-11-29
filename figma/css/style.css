@@ -1,24 +1,65 @@
+html {
+  font-size: 100%;
+}
+
+body, html {
+  height: 100%;
+}
+
 body {
   background-color: #187D6B;
 }
 
-section {
-  padding: 50%;
-}
-
 .longout {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   color: white;
+  position: relative;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.cuadros {
-  color: white;
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 2048px;
+  width: 80%;
+}
+
+.grid__cell {
+  padding: 12px;
+}
+
+.grid__cell--50 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(50% - 6px);
+  flex: 0 0 calc(50% - 6px);
+}
+
+.grid__cell--10 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 10%;
+  flex: 0 0 10%;
+}
+
+.grid__cell--33 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 33%;
+  flex: 0 0 33%;
 }
 
 h1, p {
   color: white;
+  text-align: center;
 }
 
 h1 {
@@ -29,4 +70,83 @@ h1 {
 p {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.avatar {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: solid 5px white;
+  border-radius: 50%;
+  background-image: url("../img/bruno-rodrigues-279xIHymPYY-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.avatar:hover + .avatar__edit {
+  -webkit-transform: scale(1.1) rotate(10deg);
+          transform: scale(1.1) rotate(10deg);
+  -webkit-box-shadow: -2px -2px 5px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: -2px -2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.avatar__edit {
+  position: absolute;
+  bottom: -0.5em;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: white;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2.3em;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.avatar__edit svg {
+  width: 1em;
+  height: 1em;
+}
+.avatar__container {
+  position: relative;
+  text-align: center;
+}
+
+.card-link {
+  display: inline-block;
+  padding: 18px;
+  margin: 12px;
+  background-color: #0F5145;
+  color: white;
+  border-radius: 10%;
+  text-align: center;
+}
+.card-link:visited {
+  color: white;
+}
+.card-link__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 680px;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.card-link svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 18px;
+}
+
+.align-center {
+  text-align: center;
 }

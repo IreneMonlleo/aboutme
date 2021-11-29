@@ -1,0 +1,47 @@
+//----------> $AVATAR
+
+.avatar {
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+    border:solid 5px $white;
+    border-radius: 50%;
+    background-image: url('../img/bruno-rodrigues-279xIHymPYY-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:hover + .avatar__edit{
+        transform: scale(1.1)rotate(10deg);
+        box-shadow: -2px -2px 5px 5px rgba(0,0,0,0.5);
+    }
+
+    &__edit{
+        position: absolute;
+        bottom: -0.5em;
+        left:50%;
+        transform:translateX(-50%);
+        background-color:$white;
+        display:inline-block;
+        width: 2em;
+        height: 2em;
+        line-height: 2.3em;
+        border-radius: 50%;
+        text-align:center;
+        transition:all 0.2s ease-in;
+      
+
+        svg{
+            width: 1em;
+            height: 1em;
+            
+        }
+    }
+
+    &__container{
+        position: relative;
+        text-align: center;
+        
+    }
+
+}
