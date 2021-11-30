@@ -1,0 +1,12 @@
+
+h1{
+ @include fontStyle (24px,'Segoe UI');
+
+}
+
+p{
+    @include fontStyle (12px, 'Arial');
+}
+a{
+    @include fontStyle (14px, 'Arial');
+}

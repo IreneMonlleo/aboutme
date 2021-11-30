@@ -29,11 +29,13 @@
         border-radius: 50%;
         text-align:center;
         transition:all 0.2s ease-in;
+        
       
 
         svg{
             width: 1em;
             height: 1em;
+            padding-top:0.2em ;
             
         }
     }
@@ -41,7 +43,7 @@
     &__container{
         position: relative;
         text-align: center;
-        
+       
     }
 
 }

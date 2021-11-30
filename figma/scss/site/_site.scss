@@ -1,0 +1,51 @@
+html{
+    font-size: 100%;
+}
+
+body, html{
+    height: 100%;
+}
+
+body{
+    background-color:$blue ;
+    
+}
+
+nav{
+    
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.longout{
+    
+    display: flex;
+    color:$white;
+    position: relative;
+    justify-content: right;
+    align-items: center;
+    
+
+    &:hover{
+        color:$hover;
+    }
+}
+
+
+.button{
+    
+    display: flex;
+    color:$white;
+    position: relative;
+    justify-content: left;
+
+    &:hover{
+        color:$hover;
+    }
+
+}
+
+

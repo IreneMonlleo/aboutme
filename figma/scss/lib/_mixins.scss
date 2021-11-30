@@ -14,3 +14,17 @@
   @mixin gridcell($width: 100%, $margin: $space) {
     flex: 0 0 calc(#{$width} - #{$margin});
   }
+
+
+  //--------->$TYPOGRAPHY
+
+  @mixin fontStyle ($fontsize, $fontfamily){
+    font-size: $fontsize;
+    font-family: $fontfamily;
+    color:$white;
+    text-align: center;
+  }
+
+
+
+  
