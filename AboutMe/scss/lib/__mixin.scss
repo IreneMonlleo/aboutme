@@ -1,0 +1,8 @@
+
+//---------------->$TYPOGRAPHY
+@mixin fontstyle($fontsize,$color){
+    font-size: $fontsize;
+    font-family: 'Poppins', sans-serif;
+    color:$color;
+    
+}

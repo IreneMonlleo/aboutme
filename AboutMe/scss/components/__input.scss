@@ -1,0 +1,24 @@
+input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background-color: $color-graydark;
+    color:$color-graylight;
+}
+input[type="text"]:focus{
+    box-shadow: 0 0 5px 5px orange;
+}
+input:focus{
+    box-shadow: 0 0 5px 5px orange;
+}
+   
+input:checked ~ p{
+color:$color-graylight;
+}
+.submit{
+    background-color: $degraded;
+    font-size: 20px;
+    width: 257px;
+    height: 30px;
+
+}

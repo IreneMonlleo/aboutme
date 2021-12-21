@@ -1,0 +1,18 @@
+h1 {
+    @include fontstyle ( 48px , $color-main);
+}
+
+h2 {
+    @include fontstyle ( 36px , $color-graydark);
+}
+
+h3 {
+    @include fontstyle ( 48px , $color-graydark);
+}
+.text{
+    @include fontstyle (36px, $color-main);
+}
+h4 {
+    @include fontstyle ( 12px, $color-main);
+}
+

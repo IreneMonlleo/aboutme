@@ -1,5 +1,25 @@
-//----------> $COLORES
-$color-principal:#FFC700;
-$color-grisoscuro:#4B4B4B;
-$color-grisclaro:#F2F2F2;
+// ------------> $SPACE <------------//
+$unit: 6px;
+$space-small: $unit * 2; //12//
+$space-little: $unit * 4; //24//
+$space: $unit * 6; //36//
+$space-big: $unit * 8; //48//
+$pagemaxwidth:1024px;
+
+$space--medium: $space * 1.5;
+$padding: $unit;
+
+
+//----------> $COLORES <------------//
+$color-main:#FFC700;
+$color-graydark:#4B4B4B;
+$color-graylight:#F2F2F2;
+$color-white: white;
+
+//----------> $DEGRADED <---------//
+$degraded:90deg, #FFC700, #85e8eb;
+
+
+//---------> $TYPOGRAPHY <-------------//
+
 

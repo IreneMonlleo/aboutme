@@ -1,0 +1,16 @@
+//------------> $CLASS COLOR <-----------//
+
+$color-basic: (
+    'graylight':      $color-graylight,
+    'graydark':      $color-graydark,
+    'main':          $color-main,
+    );
+    
+    @each $color, $value in $color-basic {
+        .color-bg:after {
+            content: $value;
+        }
+    }
+
+//--------------> $CLASS TYPOGRAPHY <--------------------//
+
