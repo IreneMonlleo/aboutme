@@ -1,8 +1,12 @@
 
 //---------------->$TYPOGRAPHY
-@mixin fontstyle($fontsize,$color){
+@mixin fontstyle($fontsize,$color,$weight){
     font-size: $fontsize;
-    font-family: 'Poppins', sans-serif;
-    color:$color;
+    font-family: $fontfamily;
+    color: $color;
+    font-weight: $weight;
+    margin: $unit;
+    margin-left: $space-medium;
     
+ 
 }

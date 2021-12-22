@@ -1,13 +1,12 @@
 // ------------> $SPACE <------------//
 $unit: 6px;
 $space-small: $unit * 2; //12//
-$space-little: $unit * 4; //24//
-$space: $unit * 6; //36//
-$space-big: $unit * 8; //48//
+$space-medium: $unit * 4; //24//
+$space-big: $unit * 6; //36//
+$space-verybig: $unit * 8; //48//
 $pagemaxwidth:1024px;
 
-$space--medium: $space * 1.5;
-$padding: $unit;
+
 
 
 //----------> $COLORES <------------//
@@ -22,4 +21,10 @@ $degraded:90deg, #FFC700, #85e8eb;
 
 //---------> $TYPOGRAPHY <-------------//
 
+$fontfamily:'Poppins', sans-serif;
 
+
+
+//weight//
+$regular:400;
+$bold:700;

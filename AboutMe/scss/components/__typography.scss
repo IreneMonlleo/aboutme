@@ -1,18 +1,34 @@
 h1 {
-    @include fontstyle ( 48px , $color-main);
+    @include fontstyle (48px, $color-graydark, $bold);
+    
 }
 
 h2 {
-    @include fontstyle ( 36px , $color-graydark);
+    @include fontstyle (36px, $color-main, $regular);
 }
 
 h3 {
-    @include fontstyle ( 48px , $color-graydark);
+    @include fontstyle (48px, $color-graydark, $bold);
+    margin-top: $space-big;
+    padding-left: $space-verybig;
+    
 }
 .text{
-    @include fontstyle (36px, $color-main);
+    @include fontstyle (36px, $color-main, $regular);
+    
+    padding-left: 20vh;
 }
 h4 {
-    @include fontstyle ( 12px, $color-main);
+    @include fontstyle ( 12px, $color-main, $regular);
+    width: 50%;
+    padding-top:70%;
+}
+
+h5{
+    @include fontstyle ( 18px, $color-graydark, $bold);
+}
+
+h6{
+    @include fontstyle ( 14px, $color-graydark, $regular);
 }
 
