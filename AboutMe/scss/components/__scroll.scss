@@ -6,20 +6,70 @@
     top: 60%;
     left: 50%;
     padding: $space-medium;
+    
 
 
 }
 .arrow__top{
     display: block;
     justify-content: center;
+    animation: arrow 2s ease-in-out infinite;
+    
+
+    @keyframes arrow {
+        0% {
+            transform: translate(0px, 50px);
+            }
+            50% {
+            transform: translate(0px, 60px);
+            }
+            100% {
+            transform: translate(0px, 50px);
+            }
+    }
+    
+        
 }
 
 .arrow__center{
     display: block;
     justify-content: center;
+    animation: arrow 2s ease-in-out infinite;
+    
+
+    @keyframes arrow {
+        0% {
+            transform: translate(0px, 60px);
+            }
+            50% {
+            transform: translate(0px, 70px);
+            }
+            100% {
+            transform: translate(0px, 60px);
+            }
+    }
+    
+        
+}
+.arrow__bottom{
+   
+    animation: arrow 2s ease-in-out infinite;
+    
+
+    @keyframes arrow {
+        0% {
+            transform: translate 0px;
+            }
+            50% {
+            transform: translate(0px, 20px);
+            }
+            100% {
+            transform: translate 0px;
+            }
+    }
+    
+        
 }
 
-.arrow__bottom{
-    display:block;
-    justify-content: center;
-}
+
+
