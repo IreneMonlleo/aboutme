@@ -1,15 +1,16 @@
 input{
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 15px;
+    display:block;
+    width: 20vw;
+    padding:$space-small;
+    margin-bottom: $space-small;
     background-color: $color-graydark;
     color:$color-graylight;
+    
 
     & [type="submit"]{
         background-image:linear-gradient($degraded) ;
         font-size: 20px;
-        width: 257px;
-        height: 30px;
+        justify-content: center;
     }
 
 

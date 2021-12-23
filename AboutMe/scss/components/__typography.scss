@@ -9,14 +9,11 @@ h2 {
 
 h3 {
     @include fontstyle (48px, $color-graydark, $bold);
-    margin-top: $space-big;
-    padding-left: $space-verybig;
-    
+  
 }
 .text{
     @include fontstyle (36px, $color-main, $regular);
-    
-    padding-left: 20vh;
+    padding-left: 15vw;
 }
 h4 {
     @include fontstyle ( 12px, $color-main, $regular);
@@ -30,5 +27,9 @@ h5{
 
 h6{
     @include fontstyle ( 14px, $color-graydark, $regular);
+}
+
+p{
+    @include fontstyle ( 12px, $color-graydark, $regular);
 }
 

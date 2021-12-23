@@ -1,0 +1,25 @@
+.scroll__container{
+    
+    background-image:linear-gradient($degraded) ;
+    color:$color-graylight;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    padding: $space-medium;
+
+
+}
+.arrow__top{
+    display: block;
+    justify-content: center;
+}
+
+.arrow__center{
+    display: block;
+    justify-content: center;
+}
+
+.arrow__bottom{
+    display:block;
+    justify-content: center;
+}

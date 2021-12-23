@@ -83,8 +83,6 @@ h3 {
   font-weight: 700;
   margin: 6px;
   margin-left: 24px;
-  margin-top: 36px;
-  padding-left: 48px;
 }
 
 .text {
@@ -94,7 +92,7 @@ h3 {
   font-weight: 400;
   margin: 6px;
   margin-left: 24px;
-  padding-left: 20vh;
+  padding-left: 15vw;
 }
 
 h4 {
@@ -126,20 +124,135 @@ h6 {
   margin-left: 24px;
 }
 
+p {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  color: #4B4B4B;
+  font-weight: 400;
+  margin: 6px;
+  margin-left: 24px;
+}
+
 input {
-  width: 100%;
+  display: block;
+  width: 20vw;
   padding: 12px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   background-color: #4B4B4B;
   color: #F2F2F2;
 }
 input [type=submit] {
-  background-image: -webkit-gradient(linear, left top, right top, from(#FFC700), to(#85e8eb));
-  background-image: linear-gradient(90deg, #FFC700, #85e8eb);
+  background-image: linear-gradient(150deg, #FFC700, #85e8eb);
   font-size: 20px;
-  width: 257px;
-  height: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 input :checked ~ p {
   color: #F2F2F2;
+}
+
+.container__input-modal {
+  background-color: white;
+  width: 217px;
+  height: 179px;
+  margin: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.container__input-modal :hover {
+  background-color: #FFC700;
+  color: white;
+}
+
+.open-modal {
+  display: inline-block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #4B4B4B;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #4B4B4B;
+  font-weight: 700;
+  margin: 6px;
+  margin-left: 24px;
+}
+
+.open-modal__input {
+  display: none;
+}
+.open-modal__input:checked + [aria=dialog] {
+  display: block;
+}
+
+[aria=dialog] {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  position: fixed;
+  bottom: 92%;
+  left: 95%;
+}
+.modal__container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  max-width: 90vw;
+  max-height: 80vh;
+  padding: 48px;
+  background-color: #FFC700;
+  color: #4B4B4B;
+  overflow-y: auto;
+}
+
+@media all and (min-width: 1024px) {
+  [aria=dialog] {
+    max-height: 80vh;
+  }
+}
+.scroll__container {
+  background-image: linear-gradient(150deg, #FFC700, #85e8eb);
+  color: #F2F2F2;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  padding: 24px;
+}
+
+.arrow__top {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.arrow__center {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.arrow__bottom {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
