@@ -1,0 +1,27 @@
+//--------------> Avatar Header <-----------------//
+
+
+.avatar__container {
+    height: 300px;
+    position: relative;
+    top: -200px;
+    left: 0px;
+
+    .avatar {
+        width: 100%;
+    }
+}
+
+//--------------------------> Front page <---------------------------//
+    
+.front-pag__container {
+    height: 226px;
+    position: relative;
+    top: -40px;
+    left: 100px;
+
+    .imag__front-pag {
+        height: 100%;
+        
+    }
+}

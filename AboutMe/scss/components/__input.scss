@@ -1,24 +1,40 @@
+.icons__contact{
+    display:inline-block;
+    color:$color-main;
+
+    padding: $unit;
+    
+    
+
+}
+
+
+
+
 input{
     display:block;
-    width: 20vw;
+    justify-items: center;
+    width: 90%;
     padding:$space-small;
     margin-bottom: $space-small;
     background-color: $color-graydark;
     color:$color-graylight;
+    margin-left:$space-medium;
     
-
-    & [type="submit"]{
-        background-image:linear-gradient($degraded) ;
-        font-size: 20px;
-        justify-content: center;
-    }
-
-
     & :checked ~ p{
         color:$color-graylight;
     }
         
-     
 }
+
+[type="submit"]{
+    background-image:linear-gradient($degraded) ;
+    font-size: 20px;
+    justify-content: center;
+    border:none;
+    color: $color-graydark;
+
+}
+    
 
    

@@ -9,15 +9,15 @@ body, html{
 body{
     background-color:$color-graylight ;
     
-    
 }
+
 
 .hello{
     display:flex;
     color:$color-graydark;
     transition: rotate 1s;
     margin: $space-medium;
-    padding-bottom: $space-big;
+    /*padding-bottom: $space-big;*/
     animation: greet 3s infinite;
 }
 @keyframes greet{
@@ -28,7 +28,7 @@ body{
         transform:rotate(20deg);
     }
     100%{
-        transform: rotate(-30deg);
+        transform:rotate(-30deg);
     }
 }
 
@@ -36,6 +36,6 @@ body{
     background-color: $color-main;
     width: 239px;
     height: 226px;
-    
+    margin-top: 80px;
 }
 
