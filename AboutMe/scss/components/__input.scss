@@ -1,41 +1,52 @@
-.icons__contact{
-    display:inline-block;
-    color:$color-main;
+//------------------------------------> CONTACT <-------------------------------------------//
 
-    padding: $unit;
-    
-    
-
-}
-
-
-
-
-input{
-    display:block;
-    justify-items: center;
-    width: 90%;
-    padding:$space-small;
-    margin-bottom: $space-small;
-    background-color: $color-graydark;
-    color:$color-graylight;
-    margin-left:$space-medium;
-    
-    & :checked ~ p{
-        color:$color-graylight;
-    }
-        
-}
-
-[type="submit"]{
-    background-image:linear-gradient($degraded) ;
-    font-size: 20px;
-    @include fontstyle ( 14px, $color-graydark, $regular);
+.contact{
+    display:flex;
+    flex-direction: column;
     justify-content: center;
-    border:none;
-    color: $color-graydark;
+    align-items: center;
 
+
+
+    .icons__contact{
+        display:inline-block;
+        color:$color-main;
+        padding: $unit;
+    
+    }
+    
+    
+    
+    
+    input{
+        display:block;
+        width: 90%;
+        padding:$space-small;
+        margin-bottom: $space-small;
+        background-color: $color-graydark;
+        color:$color-graylight;
+        margin-left:$space-medium;
+        
+        & :checked ~ p{
+            color:$color-graylight;
+        }
+            
+    }
+    
+    [type="submit"]{
+        background-image:linear-gradient($degraded) ;
+        font-size: 20px;
+        @include fontstyle ( 14px, $color-graydark, $bold);
+        border:none;
+        color: $color-graydark;
+    
+    }
 }
+
+
+
+
+
     
 
    
