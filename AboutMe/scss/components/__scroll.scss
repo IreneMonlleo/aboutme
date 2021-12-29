@@ -1,22 +1,16 @@
-/*.scroll__container{
-    
-    background-image:linear-gradient($degraded) ;
-    color:$color-graylight;
-    position: fixed;
-    top: 60%;
-    left: 50%;
-    padding: $space-medium;
 
-
-}*/
 .scroll__container{
     background-image:linear-gradient($degraded) ;
     color:$color-graylight;
     position: fixed;
-    height: 65px;
+    height: 60px;
     width: 50px;
     right: 100px;
     bottom: 100px;
+
+    &:hover{
+        height:200px;
+    }
 }
 
 .arrow__top{

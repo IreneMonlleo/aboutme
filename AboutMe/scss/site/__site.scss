@@ -17,7 +17,6 @@ body{
     color:$color-graydark;
     transition: rotate 1s;
     margin: $space-medium;
-    /*padding-bottom: $space-big;*/
     animation: greet 3s infinite;
 }
 @keyframes greet{

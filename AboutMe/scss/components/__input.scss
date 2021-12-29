@@ -30,6 +30,7 @@ input{
 [type="submit"]{
     background-image:linear-gradient($degraded) ;
     font-size: 20px;
+    @include fontstyle ( 14px, $color-graydark, $regular);
     justify-content: center;
     border:none;
     color: $color-graydark;

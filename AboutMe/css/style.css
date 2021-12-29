@@ -18,7 +18,6 @@ body {
   -webkit-transition: rotate 1s;
   transition: rotate 1s;
   margin: 24px;
-  /*padding-bottom: $space-big;*/
   -webkit-animation: greet 3s infinite;
           animation: greet 3s infinite;
 }
@@ -77,17 +76,16 @@ h2 {
   margin-left: 24px;
 }
 
-h3 {
+.section__title {
   font-size: 48px;
   font-family: "Poppins", sans-serif;
   color: #4B4B4B;
   font-weight: 700;
   margin: 6px;
   margin-left: 24px;
-  text-align: right;
 }
 
-.text {
+.section__title--second {
   font-size: 36px;
   font-family: "Poppins", sans-serif;
   color: #FFC700;
@@ -158,6 +156,12 @@ input :checked ~ p {
 [type=submit] {
   background-image: linear-gradient(150deg, #FFC700, #85e8eb);
   font-size: 20px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #4B4B4B;
+  font-weight: 400;
+  margin: 6px;
+  margin-left: 24px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -365,25 +369,17 @@ input :checked ~ p {
   }
 
 */
-/*.scroll__container{
-
-    background-image:linear-gradient($degraded) ;
-    color:$color-graylight;
-    position: fixed;
-    top: 60%;
-    left: 50%;
-    padding: $space-medium;
-
-
-}*/
 .scroll__container {
   background-image: linear-gradient(150deg, #FFC700, #85e8eb);
   color: #F2F2F2;
   position: fixed;
-  height: 65px;
+  height: 60px;
   width: 50px;
   right: 100px;
   bottom: 100px;
+}
+.scroll__container:hover {
+  height: 200px;
 }
 
 .arrow__top {
