@@ -7,9 +7,10 @@ $color-basic: (
     );
     
     @each $color, $value in $color-basic {
-        .color-bg:after {
-            content: $value;
+        .color-bg-#{$color} {
+            background-color: $value;
         }
+        
     }
 
 //--------------> $CLASS TYPOGRAPHY <--------------------//

@@ -1,3 +1,15 @@
+.color-bg-graylight {
+  background-color: #F2F2F2;
+}
+
+.color-bg-graydark {
+  background-color: #4B4B4B;
+}
+
+.color-bg-main {
+  background-color: #FFC700;
+}
+
 html {
   font-size: 100%;
 }
@@ -133,6 +145,28 @@ p {
   padding: 12px;
 }
 
+.main-title {
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  color: #4B4B4B;
+  font-weight: 700;
+  margin: 6px;
+  margin-left: 24px;
+  margin-top: 100px;
+}
+.main-title__smalltext {
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  color: #FFC700;
+  font-weight: 400;
+  margin: 6px;
+  margin-left: 24px;
+  display: block;
+}
+.main-title--right {
+  text-align: right;
+}
+
 .contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -178,14 +212,11 @@ p {
   color: #4B4B4B;
 }
 
-.avatar__container {
+.avatar {
   height: 300px;
   position: relative;
   top: -200px;
   left: 0px;
-}
-.avatar__container .avatar {
-  width: 100%;
 }
 
 .front-pag__container {
