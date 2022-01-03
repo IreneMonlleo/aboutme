@@ -1,5 +1,5 @@
 
-//---------------->$TYPOGRAPHY
+//-----------------------> TYPOGRAPHY <------------------------//
 @mixin fontstyle($fontsize,$color,$weight){
     font-size: $fontsize;
     font-family: $fontfamily;
@@ -13,7 +13,7 @@
 
 
 
-//------------> SCROLL <-----------------------------//
+//----------------------> SCROLL <---------------------------//
 
 
 @mixin scroll ($right,$bottom){
@@ -46,3 +46,8 @@
 
 
 }
+
+//----------------------> MEDIA QUERY <---------------------//
+
+
+
