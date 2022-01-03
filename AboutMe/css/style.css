@@ -288,16 +288,16 @@ p {
     max-height: 80vh;
   }
 }
-.scroll__container {
+.scroll__header {
   background-image: linear-gradient(150deg, #FFC700, #85e8eb);
   color: #F2F2F2;
   position: absolute;
   height: 60px;
   width: 50px;
-  right: 12vw;
-  bottom: 10vh;
+  right: 12px;
+  bottom: 2px;
 }
-.scroll__container .arrow {
+.scroll__header .arrow {
   position: absolute;
   top: 5px;
   left: 3px;
@@ -317,6 +317,68 @@ p {
     -webkit-transform: translate(0px, 0px);
             transform: translate(0px, 0px);
   }
+}
+@keyframes arrow {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  50% {
+    -webkit-transform: translate(0px, 5px);
+            transform: translate(0px, 5px);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+}
+
+.scroll__front-page {
+  background-image: linear-gradient(150deg, #FFC700, #85e8eb);
+  color: #F2F2F2;
+  position: absolute;
+  height: 60px;
+  width: 50px;
+  right: 12px;
+  bottom: -680px;
+}
+.scroll__front-page .arrow {
+  position: absolute;
+  top: 5px;
+  left: 3px;
+  -webkit-animation: arrow 2s ease-in-out infinite;
+          animation: arrow 2s ease-in-out infinite;
+}
+@keyframes arrow {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  50% {
+    -webkit-transform: translate(0px, 5px);
+            transform: translate(0px, 5px);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+}
+
+.scroll__skills {
+  background-image: linear-gradient(150deg, #FFC700, #85e8eb);
+  color: #F2F2F2;
+  position: absolute;
+  height: 60px;
+  width: 50px;
+  right: 12px;
+  bottom: -1445px;
+}
+.scroll__skills .arrow {
+  position: absolute;
+  top: 5px;
+  left: 3px;
+  -webkit-animation: arrow 2s ease-in-out infinite;
+          animation: arrow 2s ease-in-out infinite;
 }
 @keyframes arrow {
   0% {
