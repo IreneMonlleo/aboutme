@@ -156,16 +156,21 @@ p {
   display: -ms-flexbox;
   display: flex;
   color: #FFC700;
-  margin-left: 12px;
-  margin-bottom: 6px;
+  margin-left: 24px;
+  margin-bottom: 24px;
 }
 .contact input {
   display: block;
-  width: 90%;
+  width: 257px;
   padding: 12px;
   margin-bottom: 12px;
   background-color: #4B4B4B;
   border: none;
+  font-family: "Poppins", sans-serif;
+  color: #F2F2F2;
+}
+.contact input .message {
+  height: 92px;
 }
 .contact input :checked ~ p {
   color: #F2F2F2;
@@ -371,7 +376,7 @@ p {
   height: 60px;
   width: 50px;
   right: 12px;
-  bottom: -1445px;
+  bottom: -1459px;
 }
 .scroll__skills .arrow {
   position: absolute;
@@ -408,21 +413,21 @@ p {
 }
 
 .space-margin-unit {
-  margin: 6px;
+  margin-top: 6px;
 }
 
 .space-margin-small {
-  margin: 12px;
+  margin-top: 12px;
 }
 
 .space-margin-medium {
-  margin: 24px;
+  margin-top: 24px;
 }
 
 .space-margin-big {
-  margin: 36px;
+  margin-top: 36px;
 }
 
 .space-margin-verybig {
-  margin: 48px;
+  margin-top: 48px;
 }
