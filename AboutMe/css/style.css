@@ -65,6 +65,7 @@ h1 {
   font-weight: 700;
   margin: 6px;
   margin-left: 24px;
+  margin-top: 24px;
 }
 
 h2 {
@@ -82,7 +83,6 @@ h2 {
   color: #4B4B4B;
   font-weight: 700;
   margin: 6px;
-  margin-left: 24px;
   margin-top: 100px;
 }
 .main-title__smalltext {
@@ -91,7 +91,6 @@ h2 {
   color: #FFC700;
   font-weight: 400;
   margin: 6px;
-  margin-left: 24px;
   display: block;
 }
 .main-title--right {
@@ -104,7 +103,6 @@ h4 {
   color: #FFC700;
   font-weight: 400;
   margin: 6px;
-  margin-left: 24px;
   width: 50%;
 }
 
@@ -114,7 +112,6 @@ h5 {
   color: #4B4B4B;
   font-weight: 700;
   margin: 6px;
-  margin-left: 24px;
 }
 
 h6 {
@@ -123,7 +120,6 @@ h6 {
   color: #4B4B4B;
   font-weight: 700;
   margin: 6px;
-  margin-left: 24px;
 }
 
 p {
@@ -132,7 +128,6 @@ p {
   color: #4B4B4B;
   font-weight: 400;
   margin: 6px;
-  margin-left: 24px;
   padding: 12px;
 }
 
@@ -151,12 +146,18 @@ p {
       -ms-flex-align: center;
           align-items: center;
 }
+.contact .icons__contact-small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .contact .icons__contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   color: #FFC700;
-  padding: 6px;
+  margin-left: 12px;
+  margin-bottom: 6px;
 }
 .contact input {
   display: block;
@@ -164,21 +165,18 @@ p {
   padding: 12px;
   margin-bottom: 12px;
   background-color: #4B4B4B;
-  color: #F2F2F2;
-  margin-left: 24px;
+  border: none;
 }
 .contact input :checked ~ p {
   color: #F2F2F2;
 }
 .contact [type=submit] {
   background-image: linear-gradient(150deg, #FFC700, #85e8eb);
-  font-size: 20px;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   color: #4B4B4B;
   font-weight: 700;
   margin: 6px;
-  margin-left: 24px;
   border: none;
   color: #4B4B4B;
 }
@@ -407,4 +405,24 @@ p {
 
 .color-bg-main {
   background-color: #FFC700;
+}
+
+.space-margin-unit {
+  margin: 6px;
+}
+
+.space-margin-small {
+  margin: 12px;
+}
+
+.space-margin-medium {
+  margin: 24px;
+}
+
+.space-margin-big {
+  margin: 36px;
+}
+
+.space-margin-verybig {
+  margin: 48px;
 }

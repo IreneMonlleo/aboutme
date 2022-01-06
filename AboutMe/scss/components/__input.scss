@@ -7,16 +7,20 @@
     align-items: center;
 
 
+    .icons__contact-small{
+        display:flex;
+
+        
+    }
 
     .icons__contact{
         display:flex;
         color:$color-main;
-        padding: $unit;
+        margin-left: $space-small;
+        margin-bottom: $unit;
     
     }
-    
-    
-    
+
     
     input{
         display:block;
@@ -24,8 +28,11 @@
         padding:$space-small;
         margin-bottom: $space-small;
         background-color: $color-graydark;
-        color:$color-graylight;
-        margin-left:$space-medium;
+        border: none;
+        
+        
+       
+      
         
         & :checked ~ p{
             color:$color-graylight;
@@ -35,7 +42,6 @@
     
     [type="submit"]{
         background-image:linear-gradient($degraded) ;
-        font-size: 20px;
         @include fontstyle ( 14px, $color-graydark, $bold);
         border:none;
         color: $color-graydark;

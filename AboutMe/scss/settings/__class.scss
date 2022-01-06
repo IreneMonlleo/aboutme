@@ -1,7 +1,7 @@
 //------------> $CLASS COLOR <-----------//
 
 $color-basic: (
-    'graylight':      $color-graylight,
+    'graylight':     $color-graylight,
     'graydark':      $color-graydark,
     'main':          $color-main,
     );
@@ -13,5 +13,19 @@ $color-basic: (
         
     }
 
-//--------------> $CLASS TYPOGRAPHY <--------------------//
+//--------------> $CLASS SPACE <--------------------//
 
+$space-unit: (
+    'unit':         $unit,
+    'small':        $space-small,
+    'medium':       $space-medium, 
+    'big':          $space-big, 
+    'verybig':      $space-verybig, 
+    );
+
+@each $space, $value in $space-unit {
+    .space-margin-#{$space} {
+        margin: $value;
+    }
+    
+}
