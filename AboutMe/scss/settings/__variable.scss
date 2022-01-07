@@ -8,7 +8,6 @@ $pagemaxwidth:1024px;
 
 
 
-
 //----------> $COLORES <------------//
 $color-main:#FFC700;
 $color-graydark:#4B4B4B;
@@ -16,16 +15,22 @@ $color-graydark-opacity:rgba(79,79,79,0.8);
 $color-graylight:#F2F2F2;
 $color-white: white;
 
-//----------> $DEGRADED <---------//
+ //Degraded //
 $degraded:150deg, #FFC700, #85e8eb;
 
 
-//---------> $TYPOGRAPHY <-------------//
 
+//---------> $TYPOGRAPHY <-------------//
 $fontfamily:'Poppins', sans-serif;
 
-
-
-//weight//
+ //weight//
 $regular:400;
 $bold:700;
+
+
+
+//------------> BREAK <--------------//
+$breakpoint-xs: 360px;
+$breakpoint-sm: 767px;
+$breakpoint-md: 1023px;
+$breakpoint-lg: 1360px;

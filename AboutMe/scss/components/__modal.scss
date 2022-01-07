@@ -44,9 +44,9 @@
 .modal{
   color:$color-white;
   @include fontstyle ( 25px, $color-white, $bold);
-  position: absolute;
+  position: fixed;
   bottom: 83%;
-  left: 93%;
+  left: 96%;
   
   &__title{
     color: $color-white;
@@ -80,4 +80,9 @@
   }
 }
 
+@include media ($breakpoint-md){
+   .skills{
+     flex-direction: row;
+   }
 
+}
