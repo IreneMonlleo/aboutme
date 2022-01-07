@@ -8,9 +8,14 @@ body, html{
 
 body{
     background-color:$color-graylight ;
+    width: 360px;
     
 }
 
+header{
+    height: 640px;
+    
+}
 
 .hello{
     display:flex;

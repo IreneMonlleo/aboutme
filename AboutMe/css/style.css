@@ -8,6 +8,11 @@ body, html {
 
 body {
   background-color: #F2F2F2;
+  width: 360px;
+}
+
+header {
+  height: 640px;
 }
 
 .hello {
@@ -97,13 +102,16 @@ h2 {
   text-align: right;
 }
 
-h4 {
+.occupation {
   font-size: 12px;
   font-family: "Poppins", sans-serif;
   color: #FFC700;
   font-weight: 400;
   margin: 6px;
-  width: 50%;
+  width: 35%;
+  position: absolute;
+  left: 24px;
+  top: 590px;
 }
 
 h5 {
@@ -187,10 +195,10 @@ p {
 }
 
 .avatar {
-  height: 300px;
+  height: 650px;
   position: relative;
-  top: -200px;
-  left: 0px;
+  top: -240px;
+  left: 25px;
 }
 
 .imag__front-pag {
@@ -300,7 +308,7 @@ p {
   height: 60px;
   width: 50px;
   right: 12px;
-  bottom: 2px;
+  bottom: -19px;
 }
 .scroll__header .arrow {
   position: absolute;

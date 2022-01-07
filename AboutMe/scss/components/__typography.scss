@@ -25,9 +25,12 @@ h2 {
     }
 }
    
-h4 {
+.occupation {
     @include fontstyle ( 12px, $color-main, $regular);
-    width: 50%;
+    width: 35%;
+    position:absolute;
+    left:$space-medium;
+    top: 590px;
 }
 
 h5{
