@@ -30,9 +30,7 @@
         color:$color-graylight;
         
 
-        .message{
-            height: 92px;
-        }
+       
         
 
 
@@ -47,6 +45,7 @@
         @include fontstyle ( 14px, $color-graydark, $bold);
         border:none;
         color: $color-graydark;
+        margin-bottom: $space-verybig;
     
     }
 

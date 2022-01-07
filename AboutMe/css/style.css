@@ -60,7 +60,6 @@ header {
   background-color: #FFC700;
   width: 239px;
   height: 226px;
-  margin-top: 80px;
 }
 
 h1 {
@@ -111,7 +110,7 @@ h2 {
   width: 35%;
   position: absolute;
   left: 24px;
-  top: 590px;
+  top: 595px;
 }
 
 h5 {
@@ -177,9 +176,6 @@ p {
   font-family: "Poppins", sans-serif;
   color: #F2F2F2;
 }
-.contact input .message {
-  height: 92px;
-}
 .contact input :checked ~ p {
   color: #F2F2F2;
 }
@@ -192,6 +188,7 @@ p {
   margin: 6px;
   border: none;
   color: #4B4B4B;
+  margin-bottom: 48px;
 }
 
 .avatar {
@@ -261,16 +258,22 @@ p {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(79, 79, 79, 0.8);
 }
 
 .modal {
   color: white;
+  font-size: 25px;
   font-family: "Poppins", sans-serif;
+  color: white;
   font-weight: 700;
-  position: fixed;
-  bottom: 92%;
-  left: 95%;
+  margin: 6px;
+  position: absolute;
+  bottom: 83%;
+  left: 93%;
+}
+.modal__title {
+  color: white;
 }
 .modal__container {
   position: fixed;
@@ -282,7 +285,7 @@ p {
   max-height: 80vh;
   padding: 48px;
   background-color: #FFC700;
-  color: #4B4B4B;
+  color: white;
   overflow-y: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -353,7 +356,7 @@ p {
   height: 60px;
   width: 50px;
   right: 12px;
-  bottom: -700px;
+  bottom: -650px;
 }
 .scroll__front-page .arrow {
   position: absolute;
@@ -384,7 +387,7 @@ p {
   height: 60px;
   width: 50px;
   right: 12px;
-  bottom: -1497px;
+  bottom: -1422px;
 }
 .scroll__skills .arrow {
   position: absolute;

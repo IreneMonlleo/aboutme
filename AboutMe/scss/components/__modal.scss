@@ -38,18 +38,19 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(0,0,0,0.6);
+  background-color: $color-graydark-opacity;
 }
 
 .modal{
   color:$color-white;
-  font-family: $fontfamily;
-  font-weight: $bold;
-  position: fixed;
-  bottom: 92%;
-  left: 95%;
+  @include fontstyle ( 25px, $color-white, $bold);
+  position: absolute;
+  bottom: 83%;
+  left: 93%;
   
-  
+  &__title{
+    color: $color-white;
+  }
  
   
   &__container {
@@ -61,7 +62,7 @@
     max-height: 80vh;
     padding: $space-verybig;
     background-color: $color-main;
-    color: $color-graydark;
+    color: $color-white;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
