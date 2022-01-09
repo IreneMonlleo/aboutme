@@ -3,6 +3,10 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  
+  &__container{
+    flex-direction:column;
+  }
 
     .open-modal{
       flex-direction: column;
@@ -13,7 +17,7 @@
       height: 179px;
       display:flex;
       justify-content: center;
-      margin-bottom: 20px;
+      margin: 20px;
       color:$color-graydark;
 
       &:hover, &:hover h5{
@@ -21,6 +25,14 @@
         color: $color-white;  
       }
     }
+}
+
+@include media(md) {
+  .skills__container {
+    display: flex;
+    flex-direction: row;
+    
+  }
 }
 
 .open-modal__input {
@@ -73,16 +85,6 @@
 
 
 
-@media all and (min-width: 1024px) {
-  [aria="dialog"] {
-    max-height: 80vh;
-    
-  }
-}
 
-@include media ($breakpoint-md){
-   .skills{
-     flex-direction: row;
-   }
 
-}
+

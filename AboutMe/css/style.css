@@ -217,6 +217,12 @@ p {
           align-items: center;
   width: 100%;
 }
+.skills__container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 .skills .open-modal {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -235,7 +241,7 @@ p {
   display: -ms-flexbox;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin: 20px;
   color: #4B4B4B;
 }
 .skills .open-modal:hover, .skills .open-modal:hover h5 {
@@ -243,6 +249,17 @@ p {
   color: white;
 }
 
+@media (min-width: 1023px) and (max-width: 1360px) {
+  .skills__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
 .open-modal__input {
   display: none;
 }
@@ -298,11 +315,6 @@ p {
           align-items: center;
 }
 
-@media all and (min-width: 1024px) {
-  [aria=dialog] {
-    max-height: 80vh;
-  }
-}
 .scroll__header {
   background-image: linear-gradient(150deg, #FFC700, #85e8eb);
   color: #F2F2F2;
