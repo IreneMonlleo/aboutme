@@ -7,11 +7,10 @@ body, html{
 }
 
 body{
-    background-color:$color-graylight ;
-    
-    
+    background-color:$color-graylight ;    
 }
 
+    
 header{
     height: 640px;
     
@@ -39,7 +38,22 @@ header{
 .color-cube{
     background-color: $color-main;
     width: 239px;
-    height: 226px;
-    
+    height: 226px; 
 }
+
+@include media(lg) {
+  
+    .hello{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .color-cube{
+        background-color: $color-main;
+        width: 539px;
+        height: 526px; 
+    }
+}
+
+
 

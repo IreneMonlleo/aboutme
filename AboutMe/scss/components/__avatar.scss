@@ -19,3 +19,13 @@
         
     }
 
+@include media(lg){
+         
+ .imag__front-pag {
+     height: 526px;
+     position: relative;
+     top: -100px;
+     left: 300px;  
+ }
+}
+

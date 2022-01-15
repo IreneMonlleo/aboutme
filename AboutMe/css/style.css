@@ -61,6 +61,23 @@ header {
   height: 226px;
 }
 
+@media (min-width: 767px) {
+  .hello {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+
+  .color-cube {
+    background-color: #FFC700;
+    width: 539px;
+    height: 526px;
+  }
+}
 h1 {
   font-size: 48px;
   font-family: "Poppins", sans-serif;
@@ -137,6 +154,78 @@ p {
   padding: 12px;
 }
 
+.text-aboutme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 767px) {
+  h1 {
+    font-size: 144px;
+    font-family: "Poppins", sans-serif;
+    color: #4B4B4B;
+    font-weight: 700;
+    margin: 6px;
+    margin-left: 24px;
+    margin-top: 24px;
+  }
+
+  h2 {
+    font-size: 96px;
+    font-family: "Poppins", sans-serif;
+    color: #FFC700;
+    font-weight: 400;
+    margin: 6px;
+    margin-left: 24px;
+    margin-top: 24px;
+  }
+
+  .main-title {
+    font-size: 144px;
+    font-family: "Poppins", sans-serif;
+    color: #4B4B4B;
+    font-weight: 700;
+    margin: 6px;
+    margin-top: 100px;
+  }
+  .main-title__smalltext {
+    font-size: 96px;
+    font-family: "Poppins", sans-serif;
+    color: #FFC700;
+    font-weight: 400;
+    margin: 6px;
+    display: block;
+  }
+  .main-title--right {
+    text-align: right;
+    margin-right: 36px;
+  }
+
+  .occupation {
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    color: #FFC700;
+    font-weight: 400;
+    margin: 6px;
+    width: 35%;
+    position: absolute;
+    left: 24px;
+    top: 595px;
+  }
+
+  .text-aboutme {
+    display: inline-block;
+  }
+}
 .contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -204,6 +293,14 @@ p {
   left: 100px;
 }
 
+@media (min-width: 767px) {
+  .imag__front-pag {
+    height: 526px;
+    position: relative;
+    top: -100px;
+    left: 300px;
+  }
+}
 .skills {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -249,7 +346,7 @@ p {
   color: white;
 }
 
-@media (min-width: 1023px) and (max-width: 1360px) {
+@media (min-width: 767px) {
   .skills__container {
     display: -webkit-box;
     display: -ms-flexbox;
