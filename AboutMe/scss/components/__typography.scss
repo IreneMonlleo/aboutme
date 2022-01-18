@@ -76,12 +76,13 @@ p{
     }
 
 }
-
+//-------------------------> BREAK <-------------------------------------//
 @include media(lg) {
     h1{
         @include fontstyle (144px, $color-graydark, $bold);
         margin-left: $space-medium;
-        margin-top: $space-medium; 
+        margin-top: $space-medium;
+    
     }
 
     h2{

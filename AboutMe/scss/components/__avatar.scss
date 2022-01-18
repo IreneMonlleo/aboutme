@@ -20,6 +20,18 @@
     }
 
 @include media(lg){
+    //--------------> Avatar Header <-----------------//
+.avatar {
+    height: 1046px;
+    position: relative;
+    top: -600px;
+    left:900px;
+    
+    
+}
+
+
+//--------------------------> Front page <---------------------------//
          
  .imag__front-pag {
      height: 526px;
