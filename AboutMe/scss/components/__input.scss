@@ -21,7 +21,7 @@
     
     input{
         display:block;
-        width: 257px;
+        width: 50vw;
         padding:$space-small;
         margin-bottom: $space-small;
         background-color: $color-graydark;
@@ -50,6 +50,23 @@
     }
 
     
+}
+
+@include media(lg){
+    
+    .icons__contact-container{
+        display: flex;
+        margin:$space-verybig;
+    }
+
+    input{
+        display: flex;
+        flex-direction: row;
+        ;
+    }
+    
+   
+        
 }
 
 

@@ -55,6 +55,28 @@ p{
 
 }
 
+@include media (md){
+    .main-title{
+        @include fontstyle (144px, $color-graydark,$bold);
+        
+    
+        &__smalltext{
+         @include fontstyle (96px, $color-main, $regular);
+         
+         
+         
+        }
+    
+        &--right{
+            text-align: right;
+            margin-right: $unit * 48;
+            margin-bottom: 0px;
+
+        }
+    }
+
+}
+
 @include media(lg) {
     h1{
         @include fontstyle (144px, $color-graydark, $bold);
@@ -69,18 +91,20 @@ p{
     }
 
     .main-title{
-        @include fontstyle (144px, $color-graydark,$bold);
-        margin-top: 100px;
+        @include fontstyle (96px, $color-graydark,$bold);
+        
     
         &__smalltext{
-         @include fontstyle (96px, $color-main, $regular);
-         display: block;
+         @include fontstyle (64px, $color-main, $regular);
+         
+         
          
         }
     
         &--right{
             text-align: right;
-            margin-right: $space-big;
+            margin-right: $unit * 48;
+            margin-bottom: 0px;
 
         }
     }
@@ -93,8 +117,18 @@ p{
         top: 595px;
     }
 
+
+    p{
+        @include fontstyle ( 18px, $color-graydark, $regular);
+        padding:$space-small;
+    }
+
     .text-aboutme{
-        display: inline-block;
+        display:inline-block;
+        align-items: center;
+        margin-left: $unit * 24;
+        width: 40vw;
+
         
     }
 }

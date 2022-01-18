@@ -56,6 +56,7 @@ header {
   }
 }
 .color-cube {
+  display: inline-block;
   background-color: #FFC700;
   width: 239px;
   height: 226px;
@@ -168,6 +169,27 @@ p {
   width: 100%;
 }
 
+@media (min-width: 360px) and (max-width: 767px) {
+  .main-title {
+    font-size: 144px;
+    font-family: "Poppins", sans-serif;
+    color: #4B4B4B;
+    font-weight: 700;
+    margin: 6px;
+  }
+  .main-title__smalltext {
+    font-size: 96px;
+    font-family: "Poppins", sans-serif;
+    color: #FFC700;
+    font-weight: 400;
+    margin: 6px;
+  }
+  .main-title--right {
+    text-align: right;
+    margin-right: 288px;
+    margin-bottom: 0px;
+  }
+}
 @media (min-width: 767px) {
   h1 {
     font-size: 144px;
@@ -190,24 +212,23 @@ p {
   }
 
   .main-title {
-    font-size: 144px;
+    font-size: 96px;
     font-family: "Poppins", sans-serif;
     color: #4B4B4B;
     font-weight: 700;
     margin: 6px;
-    margin-top: 100px;
   }
   .main-title__smalltext {
-    font-size: 96px;
+    font-size: 64px;
     font-family: "Poppins", sans-serif;
     color: #FFC700;
     font-weight: 400;
     margin: 6px;
-    display: block;
   }
   .main-title--right {
     text-align: right;
-    margin-right: 36px;
+    margin-right: 288px;
+    margin-bottom: 0px;
   }
 
   .occupation {
@@ -222,8 +243,22 @@ p {
     top: 595px;
   }
 
+  p {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #4B4B4B;
+    font-weight: 400;
+    margin: 6px;
+    padding: 12px;
+  }
+
   .text-aboutme {
     display: inline-block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 144px;
+    width: 40vw;
   }
 }
 .contact {
@@ -256,7 +291,7 @@ p {
 }
 .contact input {
   display: block;
-  width: 257px;
+  width: 50vw;
   padding: 12px;
   margin-bottom: 12px;
   background-color: #4B4B4B;
@@ -279,6 +314,24 @@ p {
   margin-bottom: 48px;
 }
 
+@media (min-width: 767px) {
+  .icons__contact-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 48px;
+  }
+
+  input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
 .avatar {
   height: 650px;
   position: relative;
