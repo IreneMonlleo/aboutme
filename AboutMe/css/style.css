@@ -64,19 +64,30 @@ header {
 
 @media (min-width: 767px) {
   .hello {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+    left: 600px;
+  }
+
+  .front-page {
+    margin-top: 40vh;
+    height: 110vh;
   }
 
   .color-cube {
     background-color: #FFC700;
     width: 539px;
     height: 526px;
+  }
+
+  .skills__container {
+    height: 40vh;
+  }
+
+  .contact {
+    height: 100vh;
   }
 }
 h1 {
@@ -197,8 +208,8 @@ p {
     color: #4B4B4B;
     font-weight: 700;
     margin: 6px;
-    margin-left: 24px;
-    margin-top: 24px;
+    margin-left: 288px;
+    margin-top: 48px;
   }
 
   h2 {
@@ -207,8 +218,7 @@ p {
     color: #FFC700;
     font-weight: 400;
     margin: 6px;
-    margin-left: 24px;
-    margin-top: 24px;
+    margin-left: 288px;
   }
 
   .main-title {
@@ -237,10 +247,8 @@ p {
     color: #FFC700;
     font-weight: 400;
     margin: 6px;
-    width: 35%;
-    position: absolute;
-    left: 24px;
-    top: 595px;
+    margin-left: 288px;
+    margin-top: 144px;
   }
 
   p {
@@ -348,9 +356,9 @@ p {
 
 @media (min-width: 767px) {
   .avatar {
-    height: 1046px;
+    height: 900px;
     position: relative;
-    top: -600px;
+    top: -450px;
     left: 900px;
   }
 

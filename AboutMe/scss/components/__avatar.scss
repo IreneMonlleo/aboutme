@@ -11,20 +11,21 @@
 
 //--------------------------> Front page <---------------------------//
     
- .imag__front-pag {
-        height: 226px;
-        position: relative;
-        top: -40px;
-        left: 100px;  
-        
-    }
+.imag__front-pag {
+    height: 226px;
+    position: relative;
+    top: -40px;
+    left: 100px;  
+}
+       
+         
 
 @include media(lg){
     //--------------> Avatar Header <-----------------//
 .avatar {
-    height: 1046px;
+    height: 900px;
     position: relative;
-    top: -600px;
+    top: -450px;
     left:900px;
     
     

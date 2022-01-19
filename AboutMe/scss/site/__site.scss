@@ -23,7 +23,7 @@ header{
     margin: $space-medium;
     animation: greet 3s infinite;
 }
-@keyframes greet{
+@keyframes greet{    //Animation hand//
     0%{
         transform:rotate(-30deg);
     }
@@ -42,17 +42,35 @@ header{
     height: 226px; 
 }
 
+//------------------------> BREAK <-----------------------------------//
+
 @include media(lg) {
-  
+    
+
     .hello{
-        display: flex;
-        flex-direction: row;
+        display: inline-block;
+        position: absolute;
+        top:300px;
+        left:600px;
+    }
+
+    .front-page{
+        margin-top: 40vh;
+        height:110vh ;
     }
 
     .color-cube{
         background-color: $color-main;
         width: 539px;
         height: 526px; 
+    }
+
+    .skills__container{
+        height: 40vh;
+    }
+
+    .contact{
+        height: 100vh;
     }
 }
 
