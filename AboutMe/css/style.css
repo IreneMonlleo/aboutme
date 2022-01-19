@@ -64,7 +64,6 @@ header {
 
 @media (min-width: 767px) {
   .hello {
-    display: flex;
     display: inline-block;
     position: absolute;
     top: 300px;
@@ -78,8 +77,8 @@ header {
 
   .color-cube {
     background-color: #FFC700;
-    width: 539px;
-    height: 526px;
+    width: 45%;
+    height: 60%;
   }
 
   .skills__container {
@@ -180,27 +179,27 @@ p {
   width: 100%;
 }
 
-@media (min-width: 360px) and (max-width: 767px) {
-  .main-title {
-    font-size: 144px;
-    font-family: "Poppins", sans-serif;
-    color: #4B4B4B;
-    font-weight: 700;
-    margin: 6px;
-  }
-  .main-title__smalltext {
-    font-size: 96px;
-    font-family: "Poppins", sans-serif;
-    color: #FFC700;
-    font-weight: 400;
-    margin: 6px;
-  }
-  .main-title--right {
-    text-align: right;
-    margin-right: 288px;
-    margin-bottom: 0px;
-  }
-}
+/*@include media (md){
+    .main-title{
+        @include fontstyle (144px, $color-graydark,$bold);
+
+
+        &__smalltext{
+         @include fontstyle (96px, $color-main, $regular);
+
+
+
+        }
+
+        &--right{
+            text-align: right;
+            margin-right: $unit * 48;
+            margin-bottom: 0px;
+
+        }
+    }
+
+}*/
 @media (min-width: 767px) {
   h1 {
     font-size: 144px;
@@ -237,8 +236,8 @@ p {
   }
   .main-title--right {
     text-align: right;
-    margin-right: 288px;
-    margin-bottom: 0px;
+    margin-right: 144px;
+    margin-bottom: -150px;
   }
 
   .occupation {
@@ -297,6 +296,9 @@ p {
   margin-left: 24px;
   margin-bottom: 24px;
 }
+.contact .message {
+  height: 20vh;
+}
 .contact input {
   display: block;
   width: 50vw;
@@ -306,6 +308,10 @@ p {
   border: none;
   font-family: "Poppins", sans-serif;
   color: #F2F2F2;
+}
+.contact input :focus {
+  background-color: #FFC700;
+  border-color: #FFC700;
 }
 .contact input :checked ~ p {
   color: #F2F2F2;
@@ -330,14 +336,11 @@ p {
     margin: 48px;
   }
 
-  input {
+  .input-small {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    width: 10%;
   }
 }
 .avatar {
@@ -363,10 +366,10 @@ p {
   }
 
   .imag__front-pag {
-    height: 526px;
+    height: 60vh;
     position: relative;
-    top: -100px;
-    left: 300px;
+    top: -8vh;
+    left: 28vw;
   }
 }
 .skills {
@@ -414,17 +417,6 @@ p {
   color: white;
 }
 
-@media (min-width: 767px) {
-  .skills__container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-}
 .open-modal__input {
   display: none;
 }
@@ -480,6 +472,17 @@ p {
           align-items: center;
 }
 
+@media (min-width: 767px) {
+  .skills__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
 .scroll__header {
   background-image: linear-gradient(150deg, #FFC700, #85e8eb);
   color: #F2F2F2;
