@@ -32,16 +32,17 @@
         font-family: $fontfamily;
         color:$color-graylight;
 
-        & :focus{
-            background-color: $color-main;
-            border-color: $color-main;
-        }
-
         & :checked ~ p{
             color:$color-graylight;
         }
+
     }
-    
+    form :focus {
+        border:$color-main 5px solid ;
+        background-color:$color-white;
+        color:$color-graydark;
+    }
+       
     
     [type="submit"]{
         background-image:linear-gradient($degraded) ;
