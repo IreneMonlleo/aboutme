@@ -27,14 +27,6 @@
     }
 }
 
-@include media(lg) {
-  .skills__container {
-    display: flex;
-    flex-direction: row;
-    
-  }
-}
-
 .open-modal__input {
   display: none;
 
@@ -83,6 +75,14 @@
   }
 }
 
+//-----------------------> BREAK <--------------------//
+@include media(lg) {
+  .skills__container {
+    display: flex;
+    flex-direction: row;
+    
+  }
+}
 
 
 

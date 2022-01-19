@@ -54,8 +54,8 @@ p{
     width: 100%;
 
 }
-
-@include media (md){
+//---------------------------> BREAK TABLET <------------------------------------//
+/*@include media (md){
     .main-title{
         @include fontstyle (144px, $color-graydark,$bold);
         
@@ -75,8 +75,8 @@ p{
         }
     }
 
-}
-//-------------------------> BREAK <-------------------------------------//
+}*/
+//-------------------------> BREAK DESKTOP<-------------------------------------//
 @include media(lg) {
     h1{
         @include fontstyle (144px, $color-graydark, $bold);
@@ -105,8 +105,8 @@ p{
     
         &--right{
             text-align: right;
-            margin-right: $unit * 48;
-            margin-bottom: 0px;
+            margin-right: $space-medium * 6 ;
+            margin-bottom: -150px;
 
         }
     }
