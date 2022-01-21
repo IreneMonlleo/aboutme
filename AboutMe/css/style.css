@@ -218,6 +218,7 @@ p {
     font-weight: 400;
     margin: 6px;
     margin-left: 288px;
+    margin: calc($unit);
   }
 
   .main-title {
@@ -256,11 +257,12 @@ p {
     color: #4B4B4B;
     font-weight: 400;
     margin: 6px;
-    padding: 12px;
   }
 
   .text-aboutme {
     display: inline-block;
+    position: absolute;
+    top: 162vh;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -491,7 +493,7 @@ p {
   height: 60px;
   width: 50px;
   right: 12px;
-  bottom: -19px;
+  bottom: 138px;
 }
 .scroll__header .arrow {
   position: absolute;
@@ -536,7 +538,7 @@ p {
   height: 60px;
   width: 50px;
   right: 12px;
-  bottom: -650px;
+  bottom: -760px;
 }
 .scroll__front-page .arrow {
   position: absolute;
@@ -567,7 +569,7 @@ p {
   height: 60px;
   width: 50px;
   right: 12px;
-  bottom: -1422px;
+  bottom: -1544px;
 }
 .scroll__skills .arrow {
   position: absolute;
@@ -591,6 +593,222 @@ p {
   }
 }
 
+@media (min-width: 767px) {
+  .scroll__header {
+    background-image: linear-gradient(150deg, #FFC700, #85e8eb);
+    color: #F2F2F2;
+    position: absolute;
+    height: 60px;
+    width: 50px;
+    right: 20px;
+    bottom: -150px;
+  }
+  .scroll__header .arrow {
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    -webkit-animation: arrow 2s ease-in-out infinite;
+            animation: arrow 2s ease-in-out infinite;
+  }
+  @-webkit-keyframes arrow {
+    0% {
+      -webkit-transform: translate(0px, 0px);
+              transform: translate(0px, 0px);
+    }
+    50% {
+      -webkit-transform: translate(0px, 5px);
+              transform: translate(0px, 5px);
+    }
+    100% {
+      -webkit-transform: translate(0px, 0px);
+              transform: translate(0px, 0px);
+    }
+  }
+  @keyframes arrow {
+    0% {
+      -webkit-transform: translate(0px, 0px);
+              transform: translate(0px, 0px);
+    }
+    50% {
+      -webkit-transform: translate(0px, 5px);
+              transform: translate(0px, 5px);
+    }
+    100% {
+      -webkit-transform: translate(0px, 0px);
+              transform: translate(0px, 0px);
+    }
+  }
+
+  .scroll__front-page {
+    background-image: linear-gradient(150deg, #FFC700, #85e8eb);
+    color: #F2F2F2;
+    position: absolute;
+    height: 60px;
+    width: 50px;
+    right: 20px;
+    bottom: -860px;
+  }
+  .scroll__front-page .arrow {
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    -webkit-animation: arrow 2s ease-in-out infinite;
+            animation: arrow 2s ease-in-out infinite;
+  }
+  @keyframes arrow {
+    0% {
+      -webkit-transform: translate(0px, 0px);
+              transform: translate(0px, 0px);
+    }
+    50% {
+      -webkit-transform: translate(0px, 5px);
+              transform: translate(0px, 5px);
+    }
+    100% {
+      -webkit-transform: translate(0px, 0px);
+              transform: translate(0px, 0px);
+    }
+  }
+
+  .scroll__skills {
+    background-image: linear-gradient(150deg, #FFC700, #85e8eb);
+    color: #F2F2F2;
+    position: absolute;
+    height: 60px;
+    width: 50px;
+    right: 20px;
+    bottom: -1544px;
+  }
+  .scroll__skills .arrow {
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    -webkit-animation: arrow 2s ease-in-out infinite;
+            animation: arrow 2s ease-in-out infinite;
+  }
+  @keyframes arrow {
+    0% {
+      -webkit-transform: translate(0px, 0px);
+              transform: translate(0px, 0px);
+    }
+    50% {
+      -webkit-transform: translate(0px, 5px);
+              transform: translate(0px, 5px);
+    }
+    100% {
+      -webkit-transform: translate(0px, 0px);
+              transform: translate(0px, 0px);
+    }
+  }
+}
+@media (min-width: 767px) {
+  .scroll__header {
+    background-image: linear-gradient(150deg, #FFC700, #85e8eb);
+    color: #F2F2F2;
+    position: absolute;
+    height: 60px;
+    width: 50px;
+    right: 20px;
+    bottom: -150px;
+  }
+  .scroll__header .arrow {
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    -webkit-animation: arrow 2s ease-in-out infinite;
+            animation: arrow 2s ease-in-out infinite;
+  }
+  @-webkit-keyframes arrow {
+    0% {
+      -webkit-transform: translate(0px, 0px);
+              transform: translate(0px, 0px);
+    }
+    50% {
+      -webkit-transform: translate(0px, 5px);
+              transform: translate(0px, 5px);
+    }
+    100% {
+      -webkit-transform: translate(0px, 0px);
+              transform: translate(0px, 0px);
+    }
+  }
+  @keyframes arrow {
+    0% {
+      -webkit-transform: translate(0px, 0px);
+              transform: translate(0px, 0px);
+    }
+    50% {
+      -webkit-transform: translate(0px, 5px);
+              transform: translate(0px, 5px);
+    }
+    100% {
+      -webkit-transform: translate(0px, 0px);
+              transform: translate(0px, 0px);
+    }
+  }
+
+  .scroll__front-page {
+    background-image: linear-gradient(150deg, #FFC700, #85e8eb);
+    color: #F2F2F2;
+    position: absolute;
+    height: 60px;
+    width: 50px;
+    right: 20px;
+    bottom: -860px;
+  }
+  .scroll__front-page .arrow {
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    -webkit-animation: arrow 2s ease-in-out infinite;
+            animation: arrow 2s ease-in-out infinite;
+  }
+  @keyframes arrow {
+    0% {
+      -webkit-transform: translate(0px, 0px);
+              transform: translate(0px, 0px);
+    }
+    50% {
+      -webkit-transform: translate(0px, 5px);
+              transform: translate(0px, 5px);
+    }
+    100% {
+      -webkit-transform: translate(0px, 0px);
+              transform: translate(0px, 0px);
+    }
+  }
+
+  .scroll__skills {
+    background-image: linear-gradient(150deg, #FFC700, #85e8eb);
+    color: #F2F2F2;
+    position: absolute;
+    height: 60px;
+    width: 50px;
+    right: 20px;
+    bottom: -1544px;
+  }
+  .scroll__skills .arrow {
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    -webkit-animation: arrow 2s ease-in-out infinite;
+            animation: arrow 2s ease-in-out infinite;
+  }
+  @keyframes arrow {
+    0% {
+      -webkit-transform: translate(0px, 0px);
+              transform: translate(0px, 0px);
+    }
+    50% {
+      -webkit-transform: translate(0px, 5px);
+              transform: translate(0px, 5px);
+    }
+    100% {
+      -webkit-transform: translate(0px, 0px);
+              transform: translate(0px, 0px);
+    }
+  }
+}
 .color-bg-graylight {
   background-color: #F2F2F2;
 }

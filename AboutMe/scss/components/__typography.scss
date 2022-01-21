@@ -88,6 +88,7 @@ p{
     h2{
         @include fontstyle (96px, $color-main, $regular);
         margin-left: $space-verybig * 6;
+        margin: calc($unit);
        
         
     }
@@ -98,8 +99,6 @@ p{
     
         &__smalltext{
          @include fontstyle (64px, $color-main, $regular);
-         
-         
          
         }
     
@@ -121,11 +120,13 @@ p{
 
     p{
         @include fontstyle ( 18px, $color-graydark, $regular);
-        padding:$space-small;
+       
     }
 
     .text-aboutme{
         display:inline-block;
+        position: absolute;
+        top: 162vh;
         align-items: center;
         margin-left: $unit * 24;
         width: 40vw;
