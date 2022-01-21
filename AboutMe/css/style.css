@@ -310,11 +310,12 @@ p {
   border: none;
   font-family: "Poppins", sans-serif;
   color: #F2F2F2;
+  outline: none;
 }
 .contact input :checked ~ p {
   color: #F2F2F2;
 }
-.contact form :focus {
+.contact input:focus {
   border: #FFC700 5px solid;
   background-color: white;
   color: #4B4B4B;
@@ -329,6 +330,9 @@ p {
   border: none;
   color: #4B4B4B;
   margin-bottom: 48px;
+}
+.contact [type=submit]:focus {
+  border: none;
 }
 
 @media (min-width: 767px) {
@@ -593,114 +597,6 @@ p {
   }
 }
 
-@media (min-width: 767px) {
-  .scroll__header {
-    background-image: linear-gradient(150deg, #FFC700, #85e8eb);
-    color: #F2F2F2;
-    position: absolute;
-    height: 60px;
-    width: 50px;
-    right: 20px;
-    bottom: -150px;
-  }
-  .scroll__header .arrow {
-    position: absolute;
-    top: 5px;
-    left: 3px;
-    -webkit-animation: arrow 2s ease-in-out infinite;
-            animation: arrow 2s ease-in-out infinite;
-  }
-  @-webkit-keyframes arrow {
-    0% {
-      -webkit-transform: translate(0px, 0px);
-              transform: translate(0px, 0px);
-    }
-    50% {
-      -webkit-transform: translate(0px, 5px);
-              transform: translate(0px, 5px);
-    }
-    100% {
-      -webkit-transform: translate(0px, 0px);
-              transform: translate(0px, 0px);
-    }
-  }
-  @keyframes arrow {
-    0% {
-      -webkit-transform: translate(0px, 0px);
-              transform: translate(0px, 0px);
-    }
-    50% {
-      -webkit-transform: translate(0px, 5px);
-              transform: translate(0px, 5px);
-    }
-    100% {
-      -webkit-transform: translate(0px, 0px);
-              transform: translate(0px, 0px);
-    }
-  }
-
-  .scroll__front-page {
-    background-image: linear-gradient(150deg, #FFC700, #85e8eb);
-    color: #F2F2F2;
-    position: absolute;
-    height: 60px;
-    width: 50px;
-    right: 20px;
-    bottom: -860px;
-  }
-  .scroll__front-page .arrow {
-    position: absolute;
-    top: 5px;
-    left: 3px;
-    -webkit-animation: arrow 2s ease-in-out infinite;
-            animation: arrow 2s ease-in-out infinite;
-  }
-  @keyframes arrow {
-    0% {
-      -webkit-transform: translate(0px, 0px);
-              transform: translate(0px, 0px);
-    }
-    50% {
-      -webkit-transform: translate(0px, 5px);
-              transform: translate(0px, 5px);
-    }
-    100% {
-      -webkit-transform: translate(0px, 0px);
-              transform: translate(0px, 0px);
-    }
-  }
-
-  .scroll__skills {
-    background-image: linear-gradient(150deg, #FFC700, #85e8eb);
-    color: #F2F2F2;
-    position: absolute;
-    height: 60px;
-    width: 50px;
-    right: 20px;
-    bottom: -1544px;
-  }
-  .scroll__skills .arrow {
-    position: absolute;
-    top: 5px;
-    left: 3px;
-    -webkit-animation: arrow 2s ease-in-out infinite;
-            animation: arrow 2s ease-in-out infinite;
-  }
-  @keyframes arrow {
-    0% {
-      -webkit-transform: translate(0px, 0px);
-              transform: translate(0px, 0px);
-    }
-    50% {
-      -webkit-transform: translate(0px, 5px);
-              transform: translate(0px, 5px);
-    }
-    100% {
-      -webkit-transform: translate(0px, 0px);
-              transform: translate(0px, 0px);
-    }
-  }
-}
 @media (min-width: 767px) {
   .scroll__header {
     background-image: linear-gradient(150deg, #FFC700, #85e8eb);

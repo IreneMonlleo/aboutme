@@ -31,17 +31,23 @@
         border: none;
         font-family: $fontfamily;
         color:$color-graylight;
+        outline: none;
 
         & :checked ~ p{
             color:$color-graylight;
         }
 
+        &:focus {
+            border:$color-main 5px solid ;
+            background-color:$color-white;
+            color:$color-graydark;
+        }
+            
+     
+
+
     }
-    form :focus {
-        border:$color-main 5px solid ;
-        background-color:$color-white;
-        color:$color-graydark;
-    }
+        
        
     
     [type="submit"]{
@@ -50,6 +56,10 @@
         border:none;
         color: $color-graydark;
         margin-bottom: $space-verybig;
+
+        &:focus{
+            border: none;
+        }
     
     }
 

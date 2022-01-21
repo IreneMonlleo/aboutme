@@ -11,21 +11,9 @@
     @include scroll (12px,-1544px)
 }
 
-//---------------------------> BREAK DESKTOP <-------------------------------//
+//---------------------------> BREAK TABLET <-------------------------------//
 
-@include media(lg) {
-    .scroll__header{
-        @include scroll (20px,-150px);
-    }
-    
-    .scroll__front-page{
-        @include scroll (20px,-860px)
-    }
-    
-    .scroll__skills{
-        @include scroll (20px,-1544px)
-    }
-}
+
 
 
 
