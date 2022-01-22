@@ -100,7 +100,6 @@ h1 {
   font-family: "Poppins", sans-serif;
   color: #4B4B4B;
   font-weight: 700;
-  margin: 6px;
   margin-left: 24px;
   margin-top: 24px;
 }
@@ -110,7 +109,6 @@ h2 {
   font-family: "Poppins", sans-serif;
   color: #FFC700;
   font-weight: 400;
-  margin: 6px;
   margin-left: 24px;
 }
 
@@ -119,7 +117,6 @@ h2 {
   font-family: "Poppins", sans-serif;
   color: #4B4B4B;
   font-weight: 700;
-  margin: 6px;
   margin-top: 100px;
 }
 .main-title__smalltext {
@@ -127,7 +124,6 @@ h2 {
   font-family: "Poppins", sans-serif;
   color: #FFC700;
   font-weight: 400;
-  margin: 6px;
   display: block;
 }
 .main-title--right {
@@ -139,7 +135,6 @@ h2 {
   font-family: "Poppins", sans-serif;
   color: #FFC700;
   font-weight: 400;
-  margin: 6px;
   width: 35%;
   position: absolute;
   left: 24px;
@@ -151,7 +146,6 @@ h5 {
   font-family: "Poppins", sans-serif;
   color: #4B4B4B;
   font-weight: 700;
-  margin: 6px;
 }
 
 h6 {
@@ -159,7 +153,6 @@ h6 {
   font-family: "Poppins", sans-serif;
   color: #4B4B4B;
   font-weight: 700;
-  margin: 6px;
 }
 
 p {
@@ -167,8 +160,6 @@ p {
   font-family: "Poppins", sans-serif;
   color: #4B4B4B;
   font-weight: 400;
-  margin: 6px;
-  padding: 12px;
 }
 
 .text-aboutme {
@@ -212,7 +203,6 @@ p {
     font-family: "Poppins", sans-serif;
     color: #4B4B4B;
     font-weight: 700;
-    margin: 6px;
     margin-left: 288px;
     margin-top: 48px;
   }
@@ -222,7 +212,6 @@ p {
     font-family: "Poppins", sans-serif;
     color: #FFC700;
     font-weight: 400;
-    margin: 6px;
     margin-left: 288px;
     margin: calc($unit);
   }
@@ -232,14 +221,12 @@ p {
     font-family: "Poppins", sans-serif;
     color: #4B4B4B;
     font-weight: 700;
-    margin: 6px;
   }
   .main-title__smalltext {
     font-size: 64px;
     font-family: "Poppins", sans-serif;
     color: #FFC700;
     font-weight: 400;
-    margin: 6px;
   }
   .main-title--right {
     text-align: right;
@@ -252,7 +239,6 @@ p {
     font-family: "Poppins", sans-serif;
     color: #FFC700;
     font-weight: 400;
-    margin: 6px;
     margin-left: 288px;
     margin-top: 144px;
   }
@@ -262,7 +248,6 @@ p {
     font-family: "Poppins", sans-serif;
     color: #4B4B4B;
     font-weight: 400;
-    margin: 6px;
   }
 
   .text-aboutme {
@@ -332,7 +317,6 @@ p {
   font-family: "Poppins", sans-serif;
   color: #4B4B4B;
   font-weight: 700;
-  margin: 6px;
   border: none;
   color: #4B4B4B;
   margin-bottom: 48px;
@@ -453,7 +437,6 @@ p {
   font-family: "Poppins", sans-serif;
   color: white;
   font-weight: 700;
-  margin: 6px;
   position: fixed;
   bottom: 83%;
   left: 96%;
