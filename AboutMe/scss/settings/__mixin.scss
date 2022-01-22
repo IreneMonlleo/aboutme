@@ -10,8 +10,15 @@
 
 
 
-//----------------------> SCROLL <---------------------------//
+//------------------------> SVG <-------------------------------//
 
+@mixin icons ($font-size){
+  width: 1em;
+  height: 1em;
+  font-size: $font-size;
+}
+
+//----------------------> SCROLL <---------------------------//
 
 @mixin scroll ($right,$bottom){
     background-image:linear-gradient($degraded) ;
@@ -48,8 +55,7 @@
 
 @mixin media($media) {
   @if $media == sm {
-    @media (max-width: $breakpoint-sm) {@content;
-    }
+    @media (max-width: $breakpoint-sm) {@content; }
   }
   @else if $media == md {
     @media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) { @content; }
