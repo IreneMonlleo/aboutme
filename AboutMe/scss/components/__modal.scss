@@ -9,16 +9,17 @@
   }
 
     .open-modal{
+      display:flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       background-color: $color-white;
+      color:$color-graydark;
       width: 217px;
       height: 179px;
-      display:flex;
-      justify-content: center;
       margin: 20px;
-      color:$color-graydark;
+      padding: $space-small;
+      
 
       &:hover, &:hover h5{
         background-color: $color-main;
@@ -49,8 +50,8 @@
   color:$color-white;
   @include fontstyle ( 25px, $color-white, $bold);
   position: fixed;
-  bottom: 83%;
-  left: 96%;
+  top: 10px;
+  right:20px;
   
   &__title{
     color: $color-white;
@@ -62,9 +63,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 90vw;
-    max-height: 80vh;
-    padding: $space-verybig;
+    max-width: 95vw;
+    max-height: 70vh;
+    padding: $space-big;
     background-color: $color-main;
     color: $color-white;
     overflow-y: auto;

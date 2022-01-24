@@ -390,6 +390,9 @@ p {
           flex-direction: column;
 }
 .skills .open-modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -401,14 +404,11 @@ p {
       -ms-flex-align: center;
           align-items: center;
   background-color: white;
+  color: #4B4B4B;
   width: 217px;
   height: 179px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
   margin: 20px;
-  color: #4B4B4B;
+  padding: 12px;
 }
 .skills .open-modal:hover, .skills .open-modal:hover h5 {
   background-color: #FFC700;
@@ -439,8 +439,8 @@ p {
   color: white;
   font-weight: 700;
   position: fixed;
-  bottom: 83%;
-  left: 96%;
+  top: 10px;
+  right: 20px;
 }
 .modal__title {
   color: white;
@@ -451,9 +451,9 @@ p {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  max-width: 90vw;
-  max-height: 80vh;
-  padding: 48px;
+  max-width: 95vw;
+  max-height: 70vh;
+  padding: 36px;
   background-color: #FFC700;
   color: white;
   overflow-y: auto;
