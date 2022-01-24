@@ -11,7 +11,17 @@ body {
 }
 
 header {
-  height: 640px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
 }
 
 .hello {
@@ -100,8 +110,6 @@ h1 {
   font-family: "Poppins", sans-serif;
   color: #4B4B4B;
   font-weight: 700;
-  margin-left: 24px;
-  margin-top: 24px;
 }
 
 h2 {
@@ -109,7 +117,6 @@ h2 {
   font-family: "Poppins", sans-serif;
   color: #FFC700;
   font-weight: 400;
-  margin-left: 24px;
 }
 
 .main-title {
@@ -203,8 +210,6 @@ p {
     font-family: "Poppins", sans-serif;
     color: #4B4B4B;
     font-weight: 700;
-    margin-left: 288px;
-    margin-top: 48px;
   }
 
   h2 {
@@ -212,8 +217,6 @@ p {
     font-family: "Poppins", sans-serif;
     color: #FFC700;
     font-weight: 400;
-    margin-left: 288px;
-    margin: calc($unit);
   }
 
   .main-title {
@@ -239,8 +242,6 @@ p {
     font-family: "Poppins", sans-serif;
     color: #FFC700;
     font-weight: 400;
-    margin-left: 288px;
-    margin-top: 144px;
   }
 
   p {
@@ -253,7 +254,7 @@ p {
   .text-aboutme {
     display: inline-block;
     position: absolute;
-    top: 162vh;
+    top: 235vh;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
