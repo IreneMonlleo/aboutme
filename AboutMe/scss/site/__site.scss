@@ -7,17 +7,14 @@ body, html{
 }
 
 body{
-    background-color:$color-graylight ;    
+    background-color:$color-graylight ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
 }
 
     
-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
 
-}
 
 .hello{
     @include icons (3em);

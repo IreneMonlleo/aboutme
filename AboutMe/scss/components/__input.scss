@@ -13,12 +13,15 @@
     .icons__contact-small{
         display:flex; 
         
+        
+        
     }
 
     .icons__contact{
         display:flex;
+        align-items: center;
         color:$color-main;
-        padding-left: $unit;
+        margin-right: $space-small;
         margin-left: $space-verybig;
         margin-bottom: $space-medium;
     }
