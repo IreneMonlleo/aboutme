@@ -36,8 +36,16 @@ h5{
     @include fontstyle ( 18px, $color-graydark, $bold);
     
 }
+.modal__title{
+    text-justify: center;
+    
+}
 
 h6{
+    @include fontstyle ( 14px, $color-graydark, $bold);
+}
+
+a{
     @include fontstyle ( 14px, $color-graydark, $bold);
 }
 

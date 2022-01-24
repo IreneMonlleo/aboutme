@@ -5,16 +5,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
+    
+    
+    .icons{
+        @include icons (2em);
+    }
     .icons__contact-small{
-        display:flex;  
+        display:flex; 
+        
     }
 
     .icons__contact{
         display:flex;
         color:$color-main;
-        margin-left: $space-medium;
+        padding-left: $unit;
+        margin-left: $space-verybig;
         margin-bottom: $space-medium;
     }
 
@@ -68,6 +73,10 @@
 //---------------------> BREAK <-------------------------//
 @include media(lg){
     
+    .icons{
+        @include icons (3em);
+    }
+
     .icons__contact-container{
         display: flex;
         margin:$space-verybig;
@@ -75,7 +84,6 @@
 
     .input-small{
         display:flex;
-        
         width:10%;
     }
     

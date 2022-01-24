@@ -155,7 +155,18 @@ h5 {
   font-weight: 700;
 }
 
+.modal__title {
+  text-justify: center;
+}
+
 h6 {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #4B4B4B;
+  font-weight: 700;
+}
+
+a {
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   color: #4B4B4B;
@@ -277,6 +288,11 @@ p {
       -ms-flex-align: center;
           align-items: center;
 }
+.contact .icons {
+  width: 1em;
+  height: 1em;
+  font-size: 2em;
+}
 .contact .icons__contact-small {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -287,7 +303,8 @@ p {
   display: -ms-flexbox;
   display: flex;
   color: #FFC700;
-  margin-left: 24px;
+  padding-left: 6px;
+  margin-left: 48px;
   margin-bottom: 24px;
 }
 .contact .message {
@@ -327,6 +344,12 @@ p {
 }
 
 @media (min-width: 767px) {
+  .icons {
+    width: 1em;
+    height: 1em;
+    font-size: 3em;
+  }
+
   .icons__contact-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -446,6 +469,16 @@ p {
   color: white;
 }
 .modal__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -457,16 +490,9 @@ p {
   background-color: #FFC700;
   color: white;
   overflow-y: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (min-width: 767px) {
