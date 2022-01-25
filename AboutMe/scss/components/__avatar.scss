@@ -1,9 +1,8 @@
 // Avatar Header //
-.avatar {
-     height: 450px;
-     position: absolute;
-     top: 70px;
-     left: 200px; 
+.image__header {
+     height: 350px;
+     position: relative;
+     margin-top: $space-small*6;
 }
 
 // Front page //
@@ -20,11 +19,10 @@
 
   @include media(md){
     // Avatar Header //
-.avatar {
+.image__header {
     height: 550px;
     position: relative;
-    top: -250px;
-    left: 400px;
+    
 }
 // Front page //
          

@@ -8,11 +8,15 @@ body, html{
 
 body{
     background-color:$color-graylight ;  
-    overflow-x: hidden;
+
 }
 
-header{
-    height: 60vh;
+.container__header{
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    max-width: 100%;
+    position: relative;
 }
 
 
@@ -22,7 +26,7 @@ header{
     color:$color-graydark;
     transition: rotate 1s;
     margin: $space-medium;
-    margin-left:$space-verybig;
+    
     animation: greet 3s infinite;
 }
 @keyframes greet{    //Animation hand//
@@ -37,6 +41,12 @@ header{
     }
 }
 
+
+.front-page{
+    position: relative;
+    
+}
+
 .color-cube{
     display:inline-block;
     background-color: $color-main;
@@ -45,10 +55,14 @@ header{
 }
 //------------------------> BREAK TABLET <-----------------------------------//
 @include media(md){
+.container__header{
+    overflow-y: hidden;
+}
 .color-cube{
     width: 350px;
     height: 350px;
 }
+
 }
 
 
