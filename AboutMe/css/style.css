@@ -2,12 +2,9 @@ html {
   font-size: 100%;
 }
 
-body, html {
-  height: 100%;
-}
-
 body {
   background-color: #F2F2F2;
+  height: 0%;
 }
 
 .container__header {
@@ -574,6 +571,9 @@ p {
   bottom: 0px;
 }
 .scroll .arrow {
+  width: 1em;
+  height: 1em;
+  font-size: 2.5em;
   position: absolute;
   top: 5px;
   left: 3px;
@@ -609,6 +609,18 @@ p {
   }
 }
 
+@media (min-width: 800px) {
+  .scroll {
+    width: 70px;
+    height: 80px;
+    right: 150px;
+  }
+  .scroll .arrow {
+    width: 1em;
+    height: 1em;
+    font-size: 4em;
+  }
+}
 .color-bg-graylight {
   background-color: #F2F2F2;
 }

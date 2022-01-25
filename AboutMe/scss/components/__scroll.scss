@@ -8,6 +8,7 @@
     right: 12px;
     bottom: 0px;
     .arrow{
+        @include icons(2.5em);
         position:absolute;
         top: 5px;
         left: 3px;
@@ -35,7 +36,18 @@
 
 
 //---------------------------> BREAK DESKTOP <-------------------------------//
+@include media (lg){
+    .scroll{
+        width: 70px;
+        height: 80px;
+        right: 150px;
 
+        .arrow{
+            @include icons(4em);
+        }
+
+    }
+}
 
    
 
