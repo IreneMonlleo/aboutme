@@ -92,10 +92,6 @@ body {
     width: 1em;
     height: 1em;
     font-size: 6em;
-    display: inline-block;
-    position: absolute;
-    top: 320px;
-    left: 350px;
   }
 
   .front-page {
@@ -120,8 +116,9 @@ body {
 .text__header {
   margin-left: 36px;
 }
-.text__header__second-line {
-  padding: 48px;
+
+.text__second-line {
+  display: block;
 }
 
 h1 {
