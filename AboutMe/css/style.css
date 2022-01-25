@@ -94,6 +94,8 @@ body {
     font-size: 6em;
     display: inline-block;
     position: absolute;
+    top: 320px;
+    left: 350px;
   }
 
   .front-page {
@@ -303,13 +305,13 @@ p {
 
   .text-aboutme {
     display: inline-block;
-    position: absolute;
-    top: 235vh;
+    position: relative;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-left: 144px;
     width: 40vw;
+    margin-left: 144px;
+    margin-top: 144px;
   }
 }
 .contact {

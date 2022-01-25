@@ -140,15 +140,14 @@ p{
        
     }
 
+
     .text-aboutme{
         display:inline-block;
-        position: absolute;
-        top: 235vh;
+        position: relative;
         align-items: center;
-        margin-left: $unit * 24;
         width: 40vw;
-
-        
+        margin-left: $space-medium * 6;
+        margin-top: $space-medium*6;
     }
 }
 
