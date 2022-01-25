@@ -94,8 +94,6 @@ body {
     font-size: 6em;
     display: inline-block;
     position: absolute;
-    top: 270px;
-    left: 680px;
   }
 
   .front-page {
@@ -235,9 +233,18 @@ p {
     width: 60%;
   }
 
-  .main-title--right {
-    margin-top: 216px;
-    margin-right: 24px;
+  .main-title {
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+    color: #4B4B4B;
+    font-weight: 700;
+    margin-top: 100px;
+  }
+  .main-title__smalltext {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    color: #FFC700;
+    font-weight: 400;
   }
 
   p {
@@ -427,11 +434,9 @@ p {
   }
 }
 @media (min-width: 800px) {
-  .avatar {
+  .image__header {
     height: 800px;
     position: relative;
-    top: -450px;
-    left: 1050px;
   }
 
   .imag__front-pag {
