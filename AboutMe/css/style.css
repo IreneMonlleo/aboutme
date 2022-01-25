@@ -67,13 +67,13 @@ header {
   height: 226px;
 }
 
-@media (min-width: 480px) and (max-width: 700px) {
+@media (min-width: 480px) and (max-width: 800px) {
   .color-cube {
     width: 350px;
     height: 350px;
   }
 }
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .hello {
     width: 1em;
     height: 1em;
@@ -196,7 +196,7 @@ p {
   width: 100%;
 }
 
-@media (min-width: 480px) and (max-width: 700px) {
+@media (min-width: 480px) and (max-width: 800px) {
   h1 {
     font-size: 64px;
     font-family: "Poppins", sans-serif;
@@ -226,7 +226,7 @@ p {
     margin-right: 24px;
   }
 }
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   h1 {
     font-size: 144px;
     font-family: "Poppins", sans-serif;
@@ -357,7 +357,7 @@ p {
   border: none;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .icons {
     width: 1em;
     height: 1em;
@@ -392,7 +392,7 @@ p {
   left: 100px;
 }
 
-@media (min-width: 480px) and (max-width: 700px) {
+@media (min-width: 480px) and (max-width: 800px) {
   .avatar {
     height: 550px;
     position: relative;
@@ -407,7 +407,7 @@ p {
     left: 28vw;
   }
 }
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .avatar {
     height: 800px;
     position: relative;
@@ -525,7 +525,7 @@ p {
   align-items: center;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .skills__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -643,7 +643,7 @@ p {
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .scroll__header {
     background-image: linear-gradient(150deg, #FFC700, #85e8eb);
     color: #F2F2F2;
