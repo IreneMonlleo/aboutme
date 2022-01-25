@@ -12,14 +12,8 @@ body{
 }
 
 header{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    margin-left:10%;
+    height: 60vh;
 }
-
-    
 
 
 .hello{
@@ -28,6 +22,7 @@ header{
     color:$color-graydark;
     transition: rotate 1s;
     margin: $space-medium;
+    margin-left:$space-verybig;
     animation: greet 3s infinite;
 }
 @keyframes greet{    //Animation hand//
@@ -48,8 +43,18 @@ header{
     width: 239px;
     height: 226px; 
 }
+//------------------------> BREAK TABLET <-----------------------------------//
+@include media(md){
+.color-cube{
+    width: 350px;
+    height: 350px;
+}
+}
 
-//------------------------> BREAK <-----------------------------------//
+
+
+
+//------------------------> BREAK DESKTOP <-----------------------------------//
 
 @include media(lg) {
     

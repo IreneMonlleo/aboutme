@@ -1,15 +1,12 @@
-//--------------> Avatar Header <-----------------//
+// Avatar Header //
 .avatar {
-     height: 650px;
-     position: relative;
-     top: -240px;
-     left: 25px;
-     
-     
+     height: 450px;
+     position: absolute;
+     top: 70px;
+     left: 200px; 
 }
 
-
-//--------------------------> Front page <---------------------------//
+// Front page //
     
 .imag__front-pag {
     height: 226px;
@@ -17,22 +14,42 @@
     top: -40px;
     left: 100px;  
 }
-       
-         
 
-@include media(lg){
-    //--------------> Avatar Header <-----------------//
+
+                 //---------> BREAK TABLET <------------//
+
+  @include media(md){
+    // Avatar Header //
 .avatar {
-    height: 900px;
+    height: 550px;
     position: relative;
-    top: -450px;
-    left:900px;
-    
-    
+    top: -250px;
+    left: 400px;
+}
+// Front page //
+         
+ .imag__front-pag {
+     height: 50vh;
+     position: relative;
+     top: -8vh;
+     left: 28vw;  
+ }
 }
 
 
-//--------------------------> Front page <---------------------------//
+
+
+           //---------> BREAK DESKTOP <------------//    
+
+@include media(lg){
+    // Avatar Header //
+.avatar {
+    height: 800px;
+    position: relative;
+    top: -450px;
+    left: 1050px; 
+}
+// Front page //
          
  .imag__front-pag {
      height: 60vh;

@@ -1,12 +1,14 @@
 h1 {
     @include fontstyle (48px, $color-graydark, $bold);
-    
-    
+    margin-left: $space-verybig;
+    margin-bottom: 0px;
+
 }
 
 h2 {
     @include fontstyle (36px, $color-main, $regular);
-    
+    margin-left: $space-verybig;
+    margin-top: 0px;
 }
 
 .main-title{
@@ -27,9 +29,9 @@ h2 {
 .occupation {
     @include fontstyle ( 12px, $color-main, $regular);
     width: 35%;
-    position:absolute;
-    left:$space-medium;
-    top: 595px;
+    margin-left: $space-verybig;
+    margin-top: $space-big * 6;
+  
 }
 
 h5{
@@ -51,7 +53,7 @@ a{
 
 p{
     @include fontstyle ( 12px, $color-graydark, $regular);
-    
+    margin-left: $space-small;
 }
 
 .text-aboutme{
@@ -62,27 +64,28 @@ p{
 
 }
 //---------------------------> BREAK TABLET <------------------------------------//
-/*@include media (md){
-    .main-title{
-        @include fontstyle (144px, $color-graydark,$bold);
+@include media (md){
+    h1{
+        @include fontstyle (64px, $color-graydark, $bold);
+    }
+    h2{
+        @include fontstyle (48px, $color-main, $regular);
+    }
+    .occupation {
+        @include fontstyle ( 18px, $color-main, $regular);
+        width: 50%;
+        position: absolute;
+        top: 300px;
         
-    
-        &__smalltext{
-         @include fontstyle (96px, $color-main, $regular);
-         
-         
-         
-        }
-    
-        &--right{
-            text-align: right;
-            margin-right: $unit * 48;
-            margin-bottom: 0px;
-
-        }
+      
     }
 
-}*/
+    .main-title--right{
+        margin-top:$space-big * 6;
+        margin-right: $space-medium;
+    }
+
+}
 //-------------------------> BREAK DESKTOP<-------------------------------------//
 @include media(lg) {
     h1{
@@ -114,7 +117,6 @@ p{
        
     .occupation {
         @include fontstyle ( 36px, $color-main, $regular);
-       
        
     }
 
