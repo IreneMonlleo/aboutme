@@ -7,26 +7,34 @@
   
   &__container{
     flex-direction:column;
+    margin-top: $space-verybig;
   }
 
-    .open-modal{
-      display:flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-color: $color-white;
-      color:$color-graydark;
-      width: 217px;
-      height: 179px;
-      margin: 20px;
-      padding: $space-small;
-      
+  .open-modal{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-white;
+    color:$color-graydark;
+    width: 217px;
+    height: 179px;
+    margin: 20px;
+    padding: $space-small;
+    
 
-      &:hover, &:hover h5{
-        background-color: $color-main;
-        color: $color-white;  
-      }
-    }
+    &:hover, &:hover h5{
+      background-color: $color-main;
+      color: $color-white;  
+    } 
+  }
+}
+
+.icons__open-modal{
+  @include icons (4em);
+}
+.icons__modal{
+  @include icons (3em);
 }
 
 .open-modal__input {
@@ -95,6 +103,14 @@
     width: 800px;
     height: 500px;
   }
+  .icons__open-modal{
+    @include icons (4em);
+  }
+  .icons__modal{
+    @include icons (5em);
+  }
+
+
 }
 
 

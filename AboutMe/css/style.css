@@ -11,9 +11,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow-x: hidden;
   max-width: 100%;
   position: relative;
@@ -110,6 +110,12 @@ body {
   }
 }
 @media (min-width: 800px) and (max-width: 1024px) {
+  .container__header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
   .hello {
     width: 1em;
     height: 1em;
@@ -198,6 +204,7 @@ h2 {
   color: #4B4B4B;
   font-weight: 700;
   margin-top: 100px;
+  margin-bottom: 0px;
 }
 .main-title__smalltext {
   font-size: 36px;
@@ -216,8 +223,8 @@ h2 {
   color: #FFC700;
   font-weight: 400;
   width: 70%;
-  margin-top: 100px;
-  margin-right: 0px;
+  position: absolute;
+  bottom: 0px;
 }
 
 h5 {
@@ -225,6 +232,8 @@ h5 {
   font-family: "Poppins", sans-serif;
   color: #4B4B4B;
   font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 0px;
 }
 
 .modal__title {
@@ -412,6 +421,13 @@ p {
     width: 100%;
   }
 
+  h5 {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    color: #4B4B4B;
+    font-weight: 700;
+  }
+
   p {
     font-size: 18px;
     font-family: "Poppins", sans-serif;
@@ -453,6 +469,9 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .contact .icons__contact {
   display: -webkit-box;
@@ -462,16 +481,14 @@ p {
       -ms-flex-align: center;
           align-items: center;
   color: #FFC700;
-  margin-right: 12px;
-  margin-left: 48px;
-  margin-bottom: 24px;
+  padding: 12px;
 }
 .contact .message {
   height: 20vh;
 }
 .contact input {
   display: block;
-  width: 50vw;
+  width: 60vw;
   padding: 12px;
   margin-bottom: 12px;
   background-color: #4B4B4B;
@@ -554,11 +571,11 @@ p {
     padding-left: 144px;
   }
 }
-.image__header {
-  height: 550px;
-}
-
 @media (min-width: 800px) and (max-width: 1024px) {
+  .image__header {
+    height: 550px;
+  }
+
   .imag__front-pag {
     height: 50vh;
   }
@@ -593,6 +610,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 48px;
 }
 .skills .open-modal {
   display: -webkit-box;
@@ -618,6 +636,18 @@ p {
 .skills .open-modal:hover, .skills .open-modal:hover h5 {
   background-color: #FFC700;
   color: white;
+}
+
+.icons__open-modal {
+  width: 1em;
+  height: 1em;
+  font-size: 4em;
+}
+
+.icons__modal {
+  width: 1em;
+  height: 1em;
+  font-size: 3em;
 }
 
 .open-modal__input {
@@ -697,13 +727,25 @@ p {
     width: 800px;
     height: 500px;
   }
+
+  .icons__open-modal {
+    width: 1em;
+    height: 1em;
+    font-size: 4em;
+  }
+
+  .icons__modal {
+    width: 1em;
+    height: 1em;
+    font-size: 5em;
+  }
 }
 .scroll {
   background-image: linear-gradient(150deg, #FFC700, #85e8eb);
   color: #F2F2F2;
-  position: absolute;
   height: 60px;
   width: 50px;
+  position: absolute;
   right: 12px;
   bottom: 0px;
 }
@@ -771,21 +813,21 @@ p {
 }
 
 .space-margin-unit {
-  margin-top: 6px;
+  margin: 6px;
 }
 
 .space-margin-small {
-  margin-top: 12px;
+  margin: 12px;
 }
 
 .space-margin-medium {
-  margin-top: 24px;
+  margin: 24px;
 }
 
 .space-margin-big {
-  margin-top: 36px;
+  margin: 36px;
 }
 
 .space-margin-verybig {
-  margin-top: 48px;
+  margin: 48px;
 }

@@ -1,10 +1,10 @@
 
 //-----------------------> TYPOGRAPHY <------------------------//
 @mixin fontstyle($fontsize,$color,$weight){
-    font-size: $fontsize;
-    font-family: $fontfamily;
-    color: $color;
-    font-weight: $weight;
+  font-size: $fontsize;
+  font-family: $fontfamily;
+  color: $color;
+  font-weight: $weight;
    
 }
 

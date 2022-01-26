@@ -25,7 +25,7 @@ $space-unit: (
 
 @each $space, $value in $space-unit {
     .space-margin-#{$space} {
-        margin-top: $value;
+        margin: $value;
     }
     
 }

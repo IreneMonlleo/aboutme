@@ -11,7 +11,7 @@ body{
 
 .container__header{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     overflow-x: hidden;
     max-width: 100%;
     position: relative;
@@ -82,6 +82,10 @@ body{
 //-----------------------> BREAK MEDIUM <-------------------------------------//@each $
 
 @include media (md){
+   
+   .container__header{
+       justify-content: center;
+   }
     .hello{
         @include icons(4em);
     }

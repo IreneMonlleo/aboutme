@@ -32,7 +32,7 @@
   @include media(sm){
     // Avatar Header //
 .image__header {
-    height: 550px;
+   height: 550px;
 }
 // Front page //
          
@@ -43,13 +43,14 @@
 
  }
 }
-//-----------------------> BREAK MEDIUM <-------------------------------------//@each $
+//-----------------------> BREAK MEDIUM <-------------------------------------//
+@include media (md){
     // Avatar Header //
     .image__header {
-        height: 550px;
+       height: 550px;
     }
     // Front page //
-@include media (md){
+
     .imag__front-pag{
         height: 50vh;
         

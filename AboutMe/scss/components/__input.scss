@@ -11,17 +11,20 @@
     .icons{
         @include icons (2em);
     }
+    
     .icons__contact-small{
-        display:flex; 
+        display:flex;
+        justify-content: center;
+      
+       
     }
 
     .icons__contact{
         display:flex;
         align-items: center;
         color:$color-main;
-        margin-right: $space-small;
-        margin-left: $space-verybig;
-        margin-bottom: $space-medium;
+        padding: $space-small;
+        
     }
 
     .message{
@@ -30,7 +33,7 @@
 
     input{
         display:block;
-        width: 50vw;
+        width: 60vw;
         padding:$space-small;
         margin-bottom: $space-small;
         background-color: $color-graydark;
