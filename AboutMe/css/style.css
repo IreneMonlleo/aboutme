@@ -68,10 +68,17 @@ body {
 }
 
 .color-cube {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #FFC700;
+  position: relative;
   width: 239px;
   height: 226px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-right: 48px;
 }
 
 @media (min-width: 480px) and (max-width: 800px) {
@@ -93,13 +100,28 @@ body {
 
   .front-page {
     margin-top: 40vh;
-    height: 110vh;
+    height: 100vh;
+  }
+
+  .second-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    position: relative;
+    bottom: 550px;
+    left: 90px;
   }
 
   .color-cube {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     background-color: #FFC700;
-    width: 45%;
-    height: 60%;
+    width: 50vw;
+    height: 500px;
   }
 
   .skills__container {
@@ -185,6 +207,9 @@ a {
   font-family: "Poppins", sans-serif;
   color: #4B4B4B;
   font-weight: 700;
+}
+a :hover {
+  color: #FFC700;
 }
 
 p {
@@ -302,14 +327,12 @@ p {
   }
 
   .text-aboutme {
-    display: inline-block;
-    position: relative;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
     width: 40vw;
-    margin-left: 144px;
-    margin-top: 144px;
+    margin-left: 24px;
+    padding-right: 48px;
   }
 }
 .contact {
@@ -416,8 +439,6 @@ p {
 .imag__front-pag {
   height: 226px;
   position: relative;
-  top: -40px;
-  left: 100px;
 }
 
 @media (min-width: 480px) and (max-width: 800px) {
@@ -440,10 +461,8 @@ p {
   }
 
   .imag__front-pag {
-    height: 60vh;
-    position: relative;
-    top: -8vh;
-    left: 28vw;
+    display: inline-block;
+    height: 500px;
   }
 }
 .skills {
@@ -539,8 +558,8 @@ p {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  max-width: 95vw;
-  max-height: 70vh;
+  width: 70%;
+  max-height: 50%;
   padding: 36px;
   background-color: #FFC700;
   color: white;
@@ -611,8 +630,8 @@ p {
 
 @media (min-width: 800px) {
   .scroll {
-    width: 70px;
     height: 80px;
+    width: 70px;
     right: 150px;
   }
   .scroll .arrow {

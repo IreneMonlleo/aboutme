@@ -68,8 +68,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 95vw;
-    max-height: 70vh;
+    width: 70%;
+    max-height: 50%;
     padding: $space-big;
     background-color: $color-main;
     color: $color-white;
@@ -88,6 +88,7 @@
     flex-direction: row;
     
   }
+  
 }
 
 

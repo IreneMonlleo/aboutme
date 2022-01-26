@@ -10,8 +10,7 @@
 .imag__front-pag {
     height: 226px;
     position: relative;
-    top: -40px;
-    left: 100px;  
+   
 }
 
 
@@ -49,10 +48,12 @@
 // Front page //
          
  .imag__front-pag {
-     height: 60vh;
-     position: relative;
-     top: -8vh;
-     left: 28vw;  
+     display:inline-block;
+     height: 500px;
+     
+     
+     
+     
  }
 }
 

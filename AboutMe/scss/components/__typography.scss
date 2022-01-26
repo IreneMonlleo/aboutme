@@ -41,8 +41,6 @@ h2 {
     width: 70%;
     margin-top:100px;
     margin-right: 0px;
-    
-    
   
 }
 
@@ -52,7 +50,6 @@ h5{
 }
 .modal__title{
     text-justify: center;
-    
 }
 
 h6{
@@ -61,12 +58,17 @@ h6{
 
 a{
     @include fontstyle ( 14px, $color-graydark, $bold);
+
+    & :hover{
+        color:$color-main;
+    }
 }
 
 p{
     @include fontstyle ( 12px, $color-graydark, $regular);
     margin-left: $space-small;
 }
+
 
 .text-aboutme{
     display: flex;
@@ -150,12 +152,12 @@ p{
 
 
     .text-aboutme{
-        display:inline-block;
-        position: relative;
-        align-items: center;
+    
+        justify-content: end;
         width: 40vw;
-        margin-left: $space-medium * 6;
-        margin-top: $space-medium*6;
+        margin-left: $space-medium;
+        padding-right: $space-verybig;
+        
     }
 }
 

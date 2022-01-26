@@ -42,15 +42,19 @@ body{
 
 .front-page{
     position: relative;
-    
 }
 
 .color-cube{
-    display:inline-block;
+    display: flex;
     background-color: $color-main;
+    position:relative;
     width: 239px;
     height: 226px; 
+    justify-content: left;
+    margin-right: $space-verybig;
 }
+
+
 //------------------------> BREAK TABLET <-----------------------------------//
 @include media(md){
 .container__header{
@@ -79,13 +83,23 @@ body{
 
     .front-page{
         margin-top: 40vh;
-        height:110vh ;
+        height: 100vh;
+       
+    }
+    .second-image{
+        display: flex;
+        justify-content:flex-end;
+        position: relative;
+        bottom: 550px;
+        left: 90px;
+    
     }
 
     .color-cube{
+        display: flex;
         background-color: $color-main;
-        width: 45%;
-        height: 60%; 
+        width: 50vw;
+        height: 500px; 
     }
 
     .skills__container{
