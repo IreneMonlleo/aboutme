@@ -494,6 +494,7 @@ p {
   border: none;
   color: #4B4B4B;
   margin-bottom: 48px;
+  width: 100%;
 }
 .contact [type=submit]:focus {
   border: none;
@@ -520,6 +521,14 @@ p {
     width: 10%;
   }
 }
+/*.avatar{
+    max-width: 100%;
+    background-image: url('../../img/pinceles.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    z-index: 2;
+}*/
 .image__header {
   height: 350px;
   position: relative;
@@ -634,6 +643,7 @@ p {
   position: fixed;
   top: 10px;
   right: 20px;
+  z-index: 2;
 }
 .modal__title {
   color: white;

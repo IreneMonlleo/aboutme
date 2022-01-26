@@ -53,6 +53,7 @@
   position: fixed;
   top: 10px;
   right:20px;
+  z-index:2;
   
   &__title{
     color: $color-white;
@@ -77,6 +78,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
   }
 }

@@ -1,4 +1,15 @@
 // Avatar Header //
+/*.avatar{
+    max-width: 100%;
+    background-image: url('../../img/pinceles.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    z-index: 2;
+}*/
+
+
+
 .image__header {
      height: 350px;
      position: relative;
@@ -59,10 +70,7 @@
  .imag__front-pag {
      display:inline-block;
      height: 600px;
-     
-     
-     
-     
+    
  }
 }
 
