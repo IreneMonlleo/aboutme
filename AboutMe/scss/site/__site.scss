@@ -88,7 +88,7 @@ body{
     }
     .second-image{
         display: flex;
-        justify-content:flex-end;
+        justify-content:center;
         position: relative;
         bottom: 550px;
         left: 90px;
@@ -98,8 +98,9 @@ body{
     .color-cube{
         display: flex;
         background-color: $color-main;
-        width: 50vw;
-        height: 500px; 
+        width: 30vw;
+        height: 600px; 
+        margin-top: $space-medium;
     }
 
     .skills__container{
