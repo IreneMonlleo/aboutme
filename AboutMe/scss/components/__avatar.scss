@@ -18,12 +18,10 @@
 
                  //---------> BREAK TABLET <------------//
 
-  @include media(md){
+  @include media(sm){
     // Avatar Header //
 .image__header {
     height: 550px;
-    position: relative;
-    
 }
 // Front page //
          
@@ -34,9 +32,18 @@
 
  }
 }
-
-
-
+//-----------------------> BREAK MEDIUM <-------------------------------------//@each $
+    // Avatar Header //
+    .image__header {
+        height: 550px;
+    }
+    // Front page //
+@include media (md){
+    .imag__front-pag{
+        height: 50vh;
+        
+    }
+}
 
            //---------> BREAK DESKTOP <------------//    
 

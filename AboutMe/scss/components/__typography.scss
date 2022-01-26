@@ -80,7 +80,7 @@ p{
 
 }
 //---------------------------> BREAK TABLET <------------------------------------//
-@include media (md){
+@include media (sm){
     h1{
         @include fontstyle (64px, $color-graydark, $bold);
     }
@@ -112,9 +112,41 @@ p{
         margin-left: $space-medium;
         padding-top: $space-big;
     }
-    
-
 }
+//------------------------> BREAK MEDIUM <-------------------------------------//@each $@W in list {
+ @include media (md){
+    h1{
+        @include fontstyle (80px, $color-graydark, $bold);
+    }
+    h2{
+        @include fontstyle (64px, $color-main, $regular);
+    }
+    .occupation {
+        @include fontstyle ( 18px, $color-main, $regular);
+        width: 60%;
+    }    
+    .main-title{
+        @include fontstyle (80px, $color-graydark,$bold);
+
+    
+        &__smalltext{
+         @include fontstyle (64px, $color-main, $regular);
+         
+         
+        }
+    }
+    p{
+       @include fontstyle ( 14px, $color-graydark, $regular);
+            
+    }
+    .text-aboutme{
+            position: relative;
+            margin-left: $space-medium;
+            padding-top: $space-big;
+            width: 40vw;
+    }
+ }
+
 //-------------------------> BREAK DESKTOP<-------------------------------------//
 @include media(lg) {
     h1{

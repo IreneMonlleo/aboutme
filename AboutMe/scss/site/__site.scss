@@ -42,6 +42,8 @@ body{
 
 .front-page{
     position: relative;
+    height: 100vh;
+
 }
 
 .color-cube{
@@ -63,7 +65,7 @@ body{
 
 
 //------------------------> BREAK TABLET <-----------------------------------//
-@include media(md){
+@include media(sm){
 .container__header{
     overflow-y: hidden;
 }
@@ -76,10 +78,23 @@ body{
 }
 
 }
+//-----------------------> BREAK MEDIUM <-------------------------------------//@each $
 
+@include media (md){
+    .hello{
+        @include icons(4em);
+    }
+    .color-cube{
+        width: 40vw;
+        height: 400px;
+    }
+    .second-image{
+        bottom:450px;
+        
+    }
+}
 
-
-
+    
 //------------------------> BREAK DESKTOP <-----------------------------------//
 
 @include media(lg) {

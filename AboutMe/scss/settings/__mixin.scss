@@ -18,20 +18,21 @@
   font-size: $font-size;
 }
 
-//----------------------> SCROLL <---------------------------//
-
-
 //----------------------> MEDIA QUERIES <---------------------//
 
 @mixin media($media) {
-  @if $media == sm {
+  @if $media == xs {
     @media (max-width: $breakpoint-sm) {@content; }
   }
-  @else if $media == md {
+  @else if $media == sm {
     @media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) { @content; }
   }
+  @else if $media == md {
+    @media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) { @content; }
+  }
+  
   @else if $media == lg {
-    @media (min-width: $breakpoint-md){@content;}
+    @media (min-width: $breakpoint-lg){@content;}
   }
     
 }
