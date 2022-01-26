@@ -10,6 +10,8 @@
 .imag__front-pag {
     height: 226px;
     position: relative;
+    padding-left: $space-medium*6;
+    
    
 }
 
@@ -27,9 +29,9 @@
          
  .imag__front-pag {
      height: 50vh;
-     position: relative;
-     top: -8vh;
-     left: 28vw;  
+     padding-left: $space-medium*6;
+    
+
  }
 }
 

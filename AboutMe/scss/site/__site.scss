@@ -53,6 +53,13 @@ body{
     justify-content: left;
     margin-right: $space-verybig;
 }
+.second-image{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 250px;
+   
+}
 
 
 //------------------------> BREAK TABLET <-----------------------------------//
@@ -63,6 +70,9 @@ body{
 .color-cube{
     width: 350px;
     height: 350px;
+}
+.second-image{
+    bottom:450px;
 }
 
 }
