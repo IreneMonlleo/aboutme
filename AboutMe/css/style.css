@@ -580,6 +580,14 @@ p {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+
+  .modal__container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 800px;
+    height: 500px;
+  }
 }
 .scroll {
   background-image: linear-gradient(150deg, #FFC700, #85e8eb);
