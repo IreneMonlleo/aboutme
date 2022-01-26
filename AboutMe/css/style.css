@@ -95,6 +95,9 @@ body {
 @media (min-width: 480px) and (max-width: 800px) {
   .container__header {
     overflow-y: hidden;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .color-cube {
