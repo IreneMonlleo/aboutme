@@ -131,7 +131,7 @@ body {
 
   .front-page {
     margin-top: 40vh;
-    height: 100vh;
+    height: 108vh;
   }
 
   .second-image {
@@ -144,6 +144,7 @@ body {
     position: relative;
     bottom: 550px;
     left: 90px;
+    margin-bottom: 150px;
   }
 
   .color-cube {
