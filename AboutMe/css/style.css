@@ -819,12 +819,24 @@ p {
   background-color: #F2F2F2;
 }
 
+.color-graylight {
+  color: #F2F2F2;
+}
+
 .color-bg-graydark {
   background-color: #4B4B4B;
 }
 
+.color-graydark {
+  color: #4B4B4B;
+}
+
 .color-bg-main {
   background-color: #FFC700;
+}
+
+.color-main {
+  color: #FFC700;
 }
 
 .space-margin-unit {
