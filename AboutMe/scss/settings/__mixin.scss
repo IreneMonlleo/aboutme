@@ -25,10 +25,10 @@
     @media (max-width: $breakpoint-sm) {@content; }
   }
   @else if $media == sm {
-    @media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) { @content; }
+    @media (min-width: $breakpoint-sm)  { @content; }
   }
   @else if $media == md {
-    @media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) { @content; }
+    @media (min-width: $breakpoint-md)  { @content; }
   }
   
   @else if $media == lg {

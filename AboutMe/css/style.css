@@ -92,7 +92,7 @@ body {
   bottom: 250px;
 }
 
-@media (min-width: 480px) and (max-width: 800px) {
+@media (min-width: 480px) {
   .container__header {
     overflow-y: hidden;
     -webkit-box-pack: center;
@@ -109,7 +109,7 @@ body {
     bottom: 450px;
   }
 }
-@media (min-width: 800px) and (max-width: 1024px) {
+@media (min-width: 800px) {
   .container__header {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -280,7 +280,7 @@ p {
   padding-top: 24px;
 }
 
-@media (min-width: 480px) and (max-width: 800px) {
+@media (min-width: 480px) {
   h1 {
     font-size: 64px;
     font-family: "Poppins", sans-serif;
@@ -330,7 +330,7 @@ p {
     padding-top: 36px;
   }
 }
-@media (min-width: 800px) and (max-width: 1024px) {
+@media (min-width: 800px) {
   h1 {
     font-size: 80px;
     font-family: "Poppins", sans-serif;
@@ -569,7 +569,7 @@ p {
   padding-left: 144px;
 }
 
-@media (min-width: 480px) and (max-width: 800px) {
+@media (min-width: 480px) {
   .image__header {
     height: 550px;
   }
@@ -579,7 +579,7 @@ p {
     padding-left: 144px;
   }
 }
-@media (min-width: 800px) and (max-width: 1024px) {
+@media (min-width: 800px) {
   .image__header {
     height: 550px;
   }
@@ -749,20 +749,26 @@ p {
     font-size: 5em;
   }
 }
+.container__scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .scroll {
   background-image: linear-gradient(150deg, #FFC700, #85e8eb);
   color: #F2F2F2;
   height: 60px;
   width: 50px;
-  position: absolute;
-  right: 12px;
-  bottom: 0px;
 }
 .scroll .arrow {
   width: 1em;
   height: 1em;
   font-size: 2.5em;
-  position: absolute;
+  position: relative;
   top: 5px;
   left: 3px;
   -webkit-animation: arrow 2s ease-in-out infinite;
