@@ -66,8 +66,6 @@
         color: $color-graydark;
         margin-bottom: $space-verybig;
         width: 100%;
-        
-
         &:focus{
             border: none;
         }
@@ -91,7 +89,16 @@
         display:flex;
         width:10%;
     }
+
+    [type="submit"]{
+        @include fontstyle ( 24px, $color-graydark, $bold);
+        height: 60px;
+    }
+    
 }
+
+
+
     
     
     

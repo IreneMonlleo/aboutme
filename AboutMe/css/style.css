@@ -540,6 +540,14 @@ p {
     display: flex;
     width: 10%;
   }
+
+  [type=submit] {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    color: #4B4B4B;
+    font-weight: 700;
+    height: 60px;
+  }
 }
 /*.avatar{
     max-width: 100%;
@@ -665,6 +673,7 @@ p {
   bottom: 0;
   right: 0;
   background-color: rgba(79, 79, 79, 0.8);
+  z-index: 2;
 }
 
 .modal {
