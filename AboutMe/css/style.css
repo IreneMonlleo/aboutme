@@ -546,15 +546,8 @@ p {
   .imag__front-pag {
     display: inline-block;
     height: 600px;
-    /*box-shadow: -300px 100px 0 50px $color-main;*/
-  }
-
-  .imag__front-pag::after {
-    content: "";
-    display: block;
-    background: #FFC700;
-    width: 100px;
-    height: 100px;
+    -webkit-box-shadow: -300px 100px 0 50px #FFC700;
+            box-shadow: -300px 100px 0 50px #FFC700;
   }
 }
 .skills {
