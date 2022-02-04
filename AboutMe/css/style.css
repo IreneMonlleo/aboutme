@@ -95,11 +95,10 @@ body {
             justify-content: center;
   }
 
-  .color-cube {
-    width: 350px;
-    height: 350px;
-  }
-
+  /*.color-cube{
+      width: 350px;
+      height: 350px;
+  }*/
   .second-image {
     bottom: 450px;
   }
@@ -117,11 +116,10 @@ body {
     font-size: 4em;
   }
 
-  .color-cube {
-    width: 40vw;
-    height: 400px;
-  }
-
+  /*.color-cube{
+      width: 40vw;
+      height: 400px;
+  }*/
   .second-image {
     bottom: 450px;
   }
@@ -151,16 +149,13 @@ body {
     margin-bottom: 150px;
   }
 
-  .color-cube {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background-color: #FFC700;
-    width: 30vw;
-    height: 600px;
-    margin-top: 24px;
-  }
-
+  /*.color-cube{
+      display: flex;
+      background-color: $color-main;
+      width: 30vw;
+      height: 600px; 
+      margin-top: $space-medium;
+  }*/
   .skills__container {
     height: 40vh;
   }
@@ -544,14 +539,6 @@ p {
     height: 60px;
   }
 }
-/*.avatar{
-    max-width: 100%;
-    background-image: url('../../img/pinceles.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
-    z-index: 2;
-}*/
 .image__header {
   height: 350px;
   position: relative;
@@ -561,7 +548,8 @@ p {
 .imag__front-pag {
   height: 226px;
   position: relative;
-  padding-left: 144px;
+  -webkit-box-shadow: 20px 80px 0 50px #FFC700;
+          box-shadow: 20px 80px 0 50px #FFC700;
 }
 
 @media (min-width: 480px) {
@@ -571,7 +559,6 @@ p {
 
   .imag__front-pag {
     height: 50vh;
-    padding-left: 144px;
   }
 }
 @media (min-width: 800px) {
@@ -592,6 +579,8 @@ p {
   .imag__front-pag {
     display: inline-block;
     height: 600px;
+    -webkit-box-shadow: -200px 100px 0 50px #FFC700;
+            box-shadow: -200px 100px 0 50px #FFC700;
   }
 }
 .skills {

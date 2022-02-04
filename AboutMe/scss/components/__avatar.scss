@@ -1,19 +1,10 @@
 // Avatar Header //
-/*.avatar{
-    max-width: 100%;
-    background-image: url('../../img/pinceles.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
-    z-index: 2;
-}*/
-
-
 
 .image__header {
      height: 350px;
      position: relative;
      margin-top: $space-small*6;
+     
 }
 
 // Front page //
@@ -21,8 +12,7 @@
 .imag__front-pag {
     height: 226px;
     position: relative;
-    padding-left: $space-medium*6;
-    
+    box-shadow: 20px 80px 0 50px $color-main;
    
 }
 
@@ -38,8 +28,7 @@
          
  .imag__front-pag {
      height: 50vh;
-     padding-left: $space-medium*6;
-    
+     
 
  }
 }
@@ -64,6 +53,7 @@
 .image__header {
     height: 800px;
     position: relative;
+
     
 }
 // Front page //
@@ -71,7 +61,7 @@
  .imag__front-pag {
      display:inline-block;
      height: 600px;
-    
+     box-shadow: -200px 100px 0 50px $color-main;
  }
 }
 
