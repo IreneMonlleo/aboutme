@@ -548,8 +548,8 @@ p {
 .imag__front-pag {
   height: 226px;
   position: relative;
-  -webkit-box-shadow: 20px 80px 0 50px #FFC700;
-          box-shadow: 20px 80px 0 50px #FFC700;
+  -webkit-box-shadow: -50px 30px 0 0px #FFC700;
+          box-shadow: -50px 30px 0 0px #FFC700;
 }
 
 @media (min-width: 480px) {
@@ -579,8 +579,8 @@ p {
   .imag__front-pag {
     display: inline-block;
     height: 600px;
-    -webkit-box-shadow: -200px 100px 0 50px #FFC700;
-            box-shadow: -200px 100px 0 50px #FFC700;
+    -webkit-box-shadow: -300px 100px 0 50px #FFC700;
+            box-shadow: -300px 100px 0 50px #FFC700;
   }
 }
 .skills {
