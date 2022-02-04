@@ -39,22 +39,11 @@ body{
     }
 }
 
-
 .front-page{
     position: relative;
     height: 100vh;
-
 }
 
-/*.color-cube{
-    display: flex;
-    background-color: $color-main;
-    position:relative;
-    width: 239px;
-    height: 226px; 
-    justify-content: left;
-    margin-right: $space-verybig;
-}*/
 .second-image{
     display: flex;
     flex-wrap: wrap;
@@ -63,20 +52,12 @@ body{
    
 }
 
-
 //------------------------> BREAK TABLET <-----------------------------------//
 @include media(sm){
-.container__header{
-    overflow-y: hidden;
-    justify-content: center;
-}
-/*.color-cube{
-    width: 350px;
-    height: 350px;
-}*/
-.second-image{
-    bottom:450px;
-}
+    .container__header{
+        overflow-y: hidden;
+        justify-content: center;
+    }
 
 }
 //-----------------------> BREAK MEDIUM <-------------------------------------//@each $
@@ -89,10 +70,6 @@ body{
     .hello{
         @include icons(4em);
     }
-    /*.color-cube{
-        width: 40vw;
-        height: 400px;
-    }*/
     .second-image{
         bottom:450px;
         
@@ -103,41 +80,21 @@ body{
 //------------------------> BREAK DESKTOP <-----------------------------------//
 
 @include media(lg) {
-    
-
     .hello{
         @include icons (6em);
-        
-        
     }
-
     .front-page{
         margin-top: 40vh;
-        height: 108vh;
-       
     }
     .second-image{
         display: flex;
         justify-content:center;
         position: relative;
-        bottom: 550px;
-        left: 90px;
-        margin-bottom: 150px;
-    
+        
     }
-
-    /*.color-cube{
-        display: flex;
-        background-color: $color-main;
-        width: 30vw;
-        height: 600px; 
-        margin-top: $space-medium;
-    }*/
-
     .skills__container{
         height: 40vh;
     }
-
     .contact{
         height: 100vh;
     }
