@@ -23,7 +23,6 @@ h2 {
 
 .main-title{
     @include fontstyle (48px, $color-graydark,$bold);
-    margin-top: 100px;
     margin-bottom: 0px;
 
     &__smalltext{
@@ -34,6 +33,7 @@ h2 {
 
     &--right{
         text-align: right;
+        padding-bottom: 100px;
     }
 }
    
@@ -98,7 +98,7 @@ p{
 
     .main-title{
         @include fontstyle (64px, $color-graydark,$bold);
-        margin-top: 100px;
+        
     
         &__smalltext{
          @include fontstyle (48px, $color-main, $regular);
@@ -136,7 +136,7 @@ p{
         &__smalltext{
          @include fontstyle (64px, $color-main, $regular);
          
-         
+    
         }
     }
     p{
@@ -175,7 +175,7 @@ p{
         &--right{
             text-align: right;
             margin-right: $space-medium * 6 ;
-            margin-bottom: -150px;
+            
 
         }
     }
@@ -196,7 +196,6 @@ p{
 
 
     .text-aboutme{
-    
         justify-content: end;
         width: 40vw;
         margin-left: $space-medium;
