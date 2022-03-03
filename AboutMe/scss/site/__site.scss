@@ -42,6 +42,7 @@ body{
 .front-page{
     position: relative;
     height: 100vh;
+    
 }
 
 
@@ -71,10 +72,6 @@ body{
     .hello{
         @include icons(4em);
     }
-    .second-image{
-        bottom:450px;
-        
-    }
 }
 
     
@@ -84,14 +81,10 @@ body{
     .hello{
         @include icons (6em);
     }
-    .front-page{
-        margin-top: 40vh;
-    }
+    
     .second-image{
-        display: flex;
         justify-content:center;
-        position: relative;
-        
+      
     }
     .skills__container{
         height: 40vh;
