@@ -9,11 +9,8 @@
 
 // Front page //
     
-.imag__front-pag {
-    height: 226px;
-    position: relative;
-    box-shadow: -80px 50px 0 0px $color-main;
-   
+.imag__second {
+    height: 226px; 
 }
 
 
@@ -26,7 +23,7 @@
 }
 // Front page //
          
- .imag__front-pag {
+ .imag__second {
      height: 50vh;
      
 
@@ -40,7 +37,7 @@
     }
     // Front page //
 
-    .imag__front-pag{
+    .imag__second{
         height: 50vh;
         
     }
@@ -52,16 +49,16 @@
     // Avatar Header //
     .image__header {
         height: 800px;
-        position: relative;
+       
 
     
     }
     // Front page //
          
-    .imag__front-pag {
-     display:inline-block;
+    .imag__second {
      height: 600px;
-     box-shadow: -300px 100px 0 50px $color-main;
+     
+     
     }
     
 }

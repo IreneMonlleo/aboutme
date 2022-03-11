@@ -15,6 +15,7 @@ body{
     overflow-x: hidden;
     max-width: 100%;
     position: relative;
+    margin-bottom: 100px;
 }
 
 
@@ -41,18 +42,34 @@ body{
 
 .front-page{
     position: relative;
-    height: 100vh;
+    margin-bottom: 50px;
     
+    &__container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        &--imag{
+            display: inline-block;
+            position: relative;
+            text-align: end;
+            margin-bottom: 20px;
+  
+            &::before {
+                content: "";
+                position: absolute;
+                top: 40px;
+                left: -100vw;
+                right: 20px;
+                bottom: -40px;
+                background-color: $color-main;
+                z-index: -1;
+            }
+        }
+    }
 }
 
 
-.second-image{
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-   
-   
-}
+
 
 //------------------------> BREAK TABLET <-----------------------------------//
 @include media(sm){
@@ -81,10 +98,21 @@ body{
     .hello{
         @include icons (6em);
     }
+    .container__header{
+        margin-bottom: 200px;
+    }
     
-    .second-image{
-        justify-content:center;
+    .front-page__container{
+        flex:1;
+        margin-bottom: 200px;
       
+    }
+    .front-page__container--imag{
+        flex:2;
+    }
+    .text-aboutme{
+        flex:2;
+        margin-right: 100px;
     }
     .skills__container{
         height: 40vh;

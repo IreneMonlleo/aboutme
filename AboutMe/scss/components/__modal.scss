@@ -5,9 +5,10 @@
   align-items: center;
   width: 100%;
   
+  
   &__container{
     flex-direction:column;
-    margin-top: $space-verybig;
+    margin-top: 50px;
   }
 
   .open-modal{
@@ -22,7 +23,6 @@
     margin: 20px;
     padding: $space-small;
     
-
     &:hover, &:hover h5{
       background-color: $color-main;
       color: $color-white;  
@@ -97,7 +97,8 @@
   .skills__container {
     display: flex;
     flex-direction: row;
-    
+    margin-top: 100px;
+    margin-bottom: 100px; 
   }
   .modal__container{
     justify-content: center;

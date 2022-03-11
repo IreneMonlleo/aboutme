@@ -112,9 +112,9 @@ p{
         
     }
     .text-aboutme{
-        position: relative;
-        margin-left: $space-medium;
+        margin: $space-medium;
         padding-top: $space-big;
+        
     }
 }
 //------------------------> BREAK MEDIUM <-------------------------------------//@each $@W in list {
@@ -145,9 +145,11 @@ p{
     }
     .text-aboutme{
             position: relative;
-            margin-left: $space-medium;
             padding-top: $space-big;
             width: 40vw;
+            
+          
+            
     }
  }
 
@@ -181,7 +183,7 @@ p{
     }
        
     .occupation {
-        @include fontstyle ( 36px, $color-main, $regular);
+        @include fontstyle ( 24px, $color-main, $regular);
         width: 100%;
     }
     h5{
@@ -197,8 +199,7 @@ p{
 
     .text-aboutme{
         justify-content: end;
-        width: 40vw;
-        margin-left: $space-medium;
+        margin-right: 100px;
         padding-right: $space-verybig;
         
     }
