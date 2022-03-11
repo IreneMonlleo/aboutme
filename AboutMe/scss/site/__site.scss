@@ -10,12 +10,14 @@ body{
 }
 
 .container__header{
+
     display: flex;
     justify-content: center;
     overflow-x: hidden;
     max-width: 100%;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
+    margin-top: 20vh;
 }
 
 
@@ -100,6 +102,7 @@ body{
     }
     .container__header{
         margin-bottom: 200px;
+        margin-top: 0px;
     }
     
     .front-page__container{
